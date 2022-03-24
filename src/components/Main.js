@@ -187,34 +187,34 @@ const Main = () => {
             </WORK>
 
             <BottomBar>
-            <ABOUT to="/about" click={click}>
-                <motion.h2
-                initial={{
-                    y:200,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                animate={{
-                    y:0,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                whileHover={{scale: 1.1}}
-                whileTap={{scale: 0.9}}
-                >About</motion.h2>
-            </ABOUT>
-            <SKILLS to="/skills">
-                <motion.h2
-                initial={{
-                    y:200,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                animate={{
-                    y:0,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                whileHover={{scale: 1.1}}
-                whileTap={{scale: 0.9}}
-                >Skills</motion.h2>
-            </SKILLS>
+                <ABOUT to="/about" click={click}>
+                    <motion.h2
+                    initial={{
+                        y:200,
+                        transition: { type:'spring', duration: 1.5, delay:1}
+                    }}
+                    animate={{
+                        y:0,
+                        transition: { type:'spring', duration: 1.5, delay:1}
+                    }}
+                    whileHover={{scale: 1.1}}
+                    whileTap={{scale: 0.9}}
+                    >About</motion.h2>
+                </ABOUT>
+                <SKILLS to="/skills">
+                    <motion.h2
+                    initial={{
+                        y:200,
+                        transition: { type:'spring', duration: 1.5, delay:1}
+                    }}
+                    animate={{
+                        y:0,
+                        transition: { type:'spring', duration: 1.5, delay:1}
+                    }}
+                    whileHover={{scale: 1.1}}
+                    whileTap={{scale: 0.9}}
+                    >Skills</motion.h2>
+                </SKILLS>
             </BottomBar>
             </Container>
             {click ? <Intro click={click}/> : null}

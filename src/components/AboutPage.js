@@ -60,25 +60,31 @@ const Main =  styled.div`
 const AboutPage = () => {
     return (
         <ThemeProvider theme={DarkTheme}>
-<Box>
+        <Box>
 
-<LogoComponent theme='dark'/>
-<SocialIcons theme='dark'/>
-<PowerButton />
-<ParticleComponent theme='dark' />
+            <LogoComponent theme='dark'/>
+            <SocialIcons theme='dark'/>
+            <PowerButton />
+            <ParticleComponent theme='dark' />
 
-        <Spaceman>
-            <img src={astronaut} alt="spaceman" />
-        </Spaceman>    
-        <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-<br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-<br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
-        </Main>
+            <Spaceman>
+                <img src={astronaut} alt="spaceman" />
+            </Spaceman>    
+            <Main>
+            I'm an Argentine Data Scientist and Machine Learning developer. 
+            my work consists of Collect, process, 
+            analyze and present data for supporting everyday business decisions to driving global change.
+            <br /> <br/>
+            I'm interested in building great and cool projects that make real impact.
+            I'm an independent freelancer and blogger. I love to write blogs, learn languajes the cold and mate.
+            <br/> <br/>
+            I believe that the future is closely linked to web 3.0, so my goal will be to move to that risky side,
+            full of volatility, expectations for the moon and uncertainty,
+            since I love learning about new things,
+            I am curious by nature and I love it be updated in all areas in which I develop both personally and professionally
+            </Main>
 
-        <BigTitle text="ABOUT" top="10%" left="5%" />
+            <BigTitle text="ABOUT" top="10%" left="5%" />
 
 
         </Box>
