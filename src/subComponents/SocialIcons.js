@@ -1,8 +1,9 @@
-import react from "react";
-import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
-import styled from "styled-components";
-import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
-import { DarkTheme } from "../components/Themes";
+import { motion } from 'framer-motion'
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import styled from 'styled-components'
+import { Facebook, Github, Twitter, YouTube } from '../components/AllSvgs'
+import {DarkTheme} from '../components/Themes'
 
 const Icons = styled.div`
     display: flex;
@@ -19,7 +20,7 @@ const Icons = styled.div`
         margin: 0.5rem 0;
     }
 `
-const Line = styled.span`
+const Line = styled(motion.span)`
     width: 2px;
     height: 8rem;
     background-color: ${props => props.color === "dark" ? DarkTheme.text : DarkTheme.body };
@@ -28,28 +29,58 @@ const Line = styled.span`
 const SocialIcons = (props) => {
     return (
         <Icons>
-            <div>
-            <NavLink style={{color:'inherit'}} target="_black" to={{pathname:"https://github.com/DavidSilveraGabriel"}}>
-                <Github with={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body } />
-            </NavLink>
-            </div>
-            <div>
-            <NavLink style={{color:'inherit'}} target="_black" to={{pathname:"https://twitter.com/David_Silvera21"}}>
-                <Twitter with={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body } />
-            </NavLink>
-            </div>
-            <div>
-            <NavLink style={{color:'inherit'}} target="_black" to={{pathname:"https://www.facebook.com/profile.php?id=100009320624530"}}>
-                <Facebook with={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body } />
-            </NavLink>
-            </div>
-            <div>
-            <NavLink style={{color:'inherit'}} target="_black" to={{pathname:"https://www.youtube.com/channel/UCK_nb91XsdzJHr4isq3d1ZA"}}>
-                <YouTube with={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body } />
-            </NavLink>
-            </div>
-            <Line color={props.theme}/>
+            <motion.div
+            initial={{transform:"scale(0)"}}
+            animate={{scale:[0,1,1.5,1]}}
+            transition={{type:'spring', duration:1, delay:1}}
+            >
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/codebucks27"}}>
+                    <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                </NavLink>
+            </motion.div>
+            <motion.div
+            initial={{transform:"scale(0)"}}
+            animate={{scale:[0,1,1.5,1]}}
+            transition={{type:'spring', duration:1, delay:1.2}}
+            >
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/code_bucks"}}>
+                    <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                </NavLink>
+            </motion.div>
+            <motion.div
+            initial={{transform:"scale(0)"}}
+            animate={{scale:[0,1,1.5,1]}}
+            transition={{type:'spring', duration:1, delay:1.4}}
+            >
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://facebook.com/codebucks27"}}>
+                    <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                </NavLink>
+            </motion.div>
+            <motion.div
+            initial={{transform:"scale(0)"}}
+            animate={{scale:[0,1,1.5,1]}}
+            transition={{type:'spring', duration:1, delay:1.6}}
+            >
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://youtube.com"}}>
+                    <YouTube width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                </NavLink>
+            </motion.div>
+
+            <Line color={props.theme}
+
+initial={
+    {
+        height:0
+    }
+}
+animate={{
+    height: '8rem'
+}}
+transition={{
+    type:'spring', duration:1, delay:0.8
+}}
+            />
         </Icons>
-    );
+    )
 }
 export default SocialIcons;
