@@ -34,7 +34,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/codebucks27"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/DavidSilveraGabriel"}}>
                     <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
@@ -43,7 +43,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.2}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/code_bucks"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/David_Silvera21"}}>
                     <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
@@ -52,7 +52,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.4}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://facebook.com/codebucks27"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.facebook.com/DavidSilveraG/"}}>
                     <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
@@ -61,7 +61,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.6}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://youtube.com"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.youtube.com/channel/UCK_nb91XsdzJHr4isq3d1ZA"}}>
                     <YouTube width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>

@@ -74,9 +74,6 @@ const AboutPage = () => {
             I'm an Argentine Data Scientist and Machine Learning developer. 
             my work consists of Collect, process, 
             analyze and present data for supporting everyday business decisions to driving global change.
-            <br /> <br/>
-            I'm interested in building great and cool projects that make real impact.
-            I'm an independent freelancer and blogger. I love to write blogs, learn languajes the cold and mate.
             <br/> <br/>
             I believe that the future is closely linked to web 3.0, so my goal will be to move to that risky side,
             full of volatility, expectations for the moon and uncertainty,
