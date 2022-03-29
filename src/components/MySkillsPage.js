@@ -84,7 +84,7 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>
-                        <Design width={40} height={40} /> Designer
+                        <Design width={30} height={30} /> Designer
                     </Title>
                     <Description>
                         I love to create design which speaks, Keep it clean, minimal and simple.
@@ -113,21 +113,21 @@ const MySkillsPage = () => {
                 </Main>
                 <Main>
                     <Title>
-                        <Develope width={40} height={40} /> Frontend Developer
+                        <Develope width={30} height={30} /> Data Scientist
                     </Title>
                     <Description>
-                        I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
+                        I seek to generate value for companies by making data driven decision
                     </Description>
                     <Description>
                         <strong>Skills</strong>
                         <p>
-                            Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
+                            Python, matplotlib, numpy, pytorch, pandas, scikit-learn, seaborn, and much more..
                         </p>
                     </Description>
                     <Description>
                         <strong>Tools</strong>
                         <p>
-                        VScode, Github, Codepen etc.
+                        VScode, Github, Colab, Anaconda, Jupyter Notebook.
                         </p>
                     </Description>
 
