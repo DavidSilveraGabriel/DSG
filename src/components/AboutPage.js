@@ -8,7 +8,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
-import astronaut from '../assets/Images/spaceman.png'
+import saitama from '../assets/Images/saitama-white.png'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -22,7 +22,7 @@ const float = keyframes`
 50% { transform: translateY(15px) translateX(15px) }
 100% { transform: translateY(-10px) }
 `
-const Spaceman = styled.div`
+const Saitama = styled.div`
 position: absolute;
 top: 10%;
 right: 5%;
@@ -67,9 +67,9 @@ const AboutPage = () => {
             <PowerButton />
             <ParticleComponent theme='dark' />
 
-            <Spaceman>
-                <img src={astronaut} alt="spaceman" />
-            </Spaceman>    
+            <Saitama>
+                <img src={saitama} alt="saitama" />
+            </Saitama>    
             <Main>
             I'm an Argentine Data Scientist and Machine Learning developer. 
             my work consists of Collect, process, 
