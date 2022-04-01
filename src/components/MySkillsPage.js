@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import {LightTheme} from './Themes';
 import { Design, Develope} from './AllSvgs';
-import { BsFacebook, BsGithub } from "react-icons/bs";
+import { BsCodeSlash, BsClipboardData} from "react-icons/bs";
 
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -85,7 +85,7 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>
-                        <BsFacebook width={30} height={30} /> Designer
+                        <BsCodeSlash width={30} height={30} /> Designer
                     </Title>
                     <Description>
                         I love to create design which speaks, Keep it clean, minimal and simple.
@@ -114,7 +114,7 @@ const MySkillsPage = () => {
                 </Main>
                 <Main>
                     <Title>
-                        <Develope width={30} height={30} /> Data Scientist
+                        <BsClipboardData width={30} height={30} /> Data Scientist
                     </Title>
                     <Description>
                         I seek to generate value for companies by making data driven decision
