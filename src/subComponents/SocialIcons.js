@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { Facebook, Github, Twitter, YouTube } from '../components/AllSvgs'
 import {DarkTheme} from '../components/Themes'
+import { BsFacebook, BsGithub } from "react-icons/bs";
 
 const Icons = styled.div`
     display: flex;
@@ -53,7 +54,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.4}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.facebook.com/DavidSilveraG/"}}>
-                    <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <BsFacebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
