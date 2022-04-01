@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import {LightTheme} from './Themes';
 import { Design, Develope} from './AllSvgs';
+import { BsFacebook, BsGithub } from "react-icons/bs";
 
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -57,7 +58,7 @@ margin-right: 1rem;
 
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.6em + 1vw);
+font-size: calc(0.3em + 0.8vw);
 padding: 0.5rem 0;
 ${Main}:hover &{
    
