@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import { Facebook, Github, Twitter, YouTube } from '../components/AllSvgs'
 import {DarkTheme} from '../components/Themes'
-import { BsFacebook, BsGithub } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsTwitter } from "react-icons/bs";
 
 const Icons = styled.div`
     display: flex;
@@ -36,7 +36,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/DavidSilveraGabriel"}}>
-                    <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <BsGithub width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -45,7 +45,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.2}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/David_Silvera21"}}>
-                    <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <BsTwitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
