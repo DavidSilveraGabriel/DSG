@@ -58,8 +58,8 @@ margin-right: 1rem;
 
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.3em + 0.8vw);
-padding: 0.5rem 0;
+font-size: calc(0.5em + 0.6vw);
+padding: 0.7rem 0;
 ${Main}:hover &{
    
         color:${props => props.theme.body};
@@ -85,19 +85,22 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>
-                        <BsCodeSlash width={30} height={30} /> Designer
+                        <BsCodeSlash width={30} height={30} /> Blockchain Developer
                     </Title>
                     <Description>
-                        I love to create design which speaks, Keep it clean, minimal and simple.
+                        I love to create smart contracts more smart than me.
                     </Description>
                     <Description>
-                        <strong>I like to Design</strong>
+                        <strong>Main work</strong>
                         <ul>
                             <li>
-                                Web Design
+                                NFT
                             </li>
                             <li>
-                                Mobile Apps
+                                DApp
+                            </li>
+                            <li>
+                                DAO
                             </li>
                         </ul>
                     </Description>
@@ -105,9 +108,11 @@ const MySkillsPage = () => {
                         <strong>Tools</strong>
                         <ul>
                             <li>
-                            Figma
+                            Solidity
                             </li>
-                            
+                            <li>
+                            Javascript
+                            </li>
                         </ul>
                     </Description>
 

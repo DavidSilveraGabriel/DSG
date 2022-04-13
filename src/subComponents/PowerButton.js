@@ -23,8 +23,8 @@ align-items:center;
 z-index:3;
 cursor: pointer;
 &:hover{
-    background-color: rgba(0,255,0,0.4);
-    box-shadow: 0 0 8px 6px rgba(0,255,0,0.2);
+    background-color: rgb(105,105,105);
+    box-shadow: 0 0 8px 6px rgb(105,105,105);
 }
 &>*:first-child{
     text-decoration: none;

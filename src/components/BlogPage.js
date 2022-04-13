@@ -11,16 +11,16 @@ import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
 
 const MainContainer = styled(motion.div)`
-background-image: url(${img});
+background-color: white;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-bachground-position: center;
+background-position: center;
 `
 const Container = styled.div`
-background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
+background-color: ${props => `rgba(${props.theme.bodyRgba},0.5)`};
 width: 100%;
-height: auto;
+height:auto;
 position: relative;
 padding-bottom: 5rem;
 `
