@@ -4,7 +4,7 @@ import img from "../assets/Images/libro.jpg";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
-import AnchorComponent from "../subComponents/Anchor";
+//import AnchorComponent from "../subComponents/Anchor";
 import {Blogs} from "../data/BlogData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
@@ -69,7 +69,7 @@ const BlogPage = () => {
                 <LogoComponent />
                 <PowerButton />
                 <SocialIcons />
-                <AnchorComponent number={numbers}/>
+                {/*<AnchorComponent number={numbers}/>*/}
                 <Center>
                     <Grid>
                         {
