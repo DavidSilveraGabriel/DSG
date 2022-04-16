@@ -107,7 +107,7 @@ const MySkillsPage = () => {
                     <Description>
                         <strong>Tools</strong>
                         <ul>
-                            <li>
+                            <li target="_blank" href="https://solidity-es.readthedocs.io/es/latest/">
                             Solidity
                             </li>
                             <li>
