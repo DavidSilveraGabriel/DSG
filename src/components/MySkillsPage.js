@@ -110,10 +110,10 @@ const MySkillsPage = () => {
                             <li target="_blank" href="https://solidity-es.readthedocs.io/es/latest/">
                             Solidity
                             </li>
-                            <li>
+                            <li target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript">
                             Javascript
                             </li>
-                            <li>
+                            <li target="_blank" href="https://solidity-es.readthedocs.io/es/latest/">
                             hardhat
                             </li>
                         </ul>
