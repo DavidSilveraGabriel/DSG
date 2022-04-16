@@ -113,6 +113,9 @@ const MySkillsPage = () => {
                             <li>
                             Javascript
                             </li>
+                            <li>
+                            hardhat
+                            </li>
                         </ul>
                     </Description>
 
