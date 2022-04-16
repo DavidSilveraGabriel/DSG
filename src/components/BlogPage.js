@@ -30,8 +30,9 @@ justify-content: center;
 align-items: center;
 padding-top: 10rem;
 `
+//el display es grid
 const Grid = styled.div`
-display: grid;
+display: block; 
 grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
 grid-gap: calc(1rem + 2vw);
 `
