@@ -1,15 +1,13 @@
 import react, { useEffect, useState } from 'react'
 import styled from "styled-components";
-import img from "../assets/Images/libro.jpg";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
-//import AnchorComponent from "../subComponents/Anchor";
+import AnchorComponent from "../subComponents/Anchor";
 import {Blogs} from "../data/BlogData";
 import BlogComponent from "./BlogComponent";
-import BigTitle from "../subComponents/BigTitlte";
+//import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
-import Blog from "./Blog";
 
 const MainContainer = styled(motion.div)`
 background-color: white;
@@ -71,21 +69,13 @@ const BlogPage = () => {
                 <LogoComponent />
                 <PowerButton />
                 <SocialIcons />
-                {/*<AnchorComponent number={numbers}/>*/}
+                
                 <Center>
-                    {/*<Grid>
-                        {
-                            Blogs.map(blog => {
-                                return <BlogComponent key={blog.id} blog={blog} />
-                            })
-                        }
-                    </Grid>*/}
                     <Grid>
-                        <Blog />
+                        Hola
                     </Grid>
-                    
                 </Center>
-                <BigTitle text="BLOG" top="5rem" left="5rem" />
+                {/*<BigTitle text="BLOG" top="5rem" left="5rem" />*/}
             </Container>
         </MainContainer>
     );
