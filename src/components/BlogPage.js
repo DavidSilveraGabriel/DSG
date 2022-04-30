@@ -73,15 +73,12 @@ const BlogPage = () => {
                 <SocialIcons />
                 {/*<AnchorComponent number={numbers}/>*/}
                 <Center>
-                    {/*<Grid>
+                    <Grid>
                         {
                             Blogs.map(blog => {
                                 return <BlogComponent key={blog.id} blog={blog} />
                             })
                         }
-                    </Grid>*/}
-                    <Grid>
-                        <Blog />
                     </Grid>
                     
                 </Center>
