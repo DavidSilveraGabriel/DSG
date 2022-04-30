@@ -58,6 +58,14 @@ export const Blogs = [
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
         link:"https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
     },
+    {
+        id:8,
+        name:"github copilot",
+        tags:["github","github-copilot"],
+        date:"30 april, 2022",
+        imgSrc:"/github.png",
+        link:"/Github copilot 5aca4c9ea6cd4f1e8fc47c552bb5cec2.md"
+    }
 
   
 ] 
