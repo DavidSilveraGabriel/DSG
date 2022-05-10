@@ -83,7 +83,7 @@ const MySkillsPage = () => {
                 <SocialIcons theme='light'/>
                 <PowerButton />
                 <ParticleComponent theme='light' />
-                <Main to = "/">
+                <Main to = "/blockchain">
                     <Title>
                         <BsCodeSlash width={30} height={30} /> Blockchain Developer
                     </Title>
