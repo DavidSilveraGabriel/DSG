@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from 'styled-components'
 import {LightTheme} from './Themes';
 import { Design, Develope} from './AllSvgs';
 import { BsCodeSlash, BsClipboardData} from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -73,7 +74,16 @@ ul,p{
     margin-left: 2rem;
 }
 `
-
+const BLOCKCHAIN = styled(NavLink)`
+color: ${props => props.click ? props.theme.body : props.theme.text};
+text-decoration: none;
+z-index:1;
+`
+const DATASCIENCE = styled(NavLink)`
+color: ${props => props.click ? props.theme.body : props.theme.text};
+text-decoration: none;
+z-index:1;
+`
 const MySkillsPage = () => {
     return (
         <ThemeProvider theme={LightTheme}>
@@ -83,42 +93,43 @@ const MySkillsPage = () => {
                 <SocialIcons theme='light'/>
                 <PowerButton />
                 <ParticleComponent theme='light' />
-                <Main to = "/blockchain">
-                    <Title>
-                        <BsCodeSlash width={30} height={30} /> Blockchain Developer
-                    </Title>
-                    <Description>
-                        I love to create smart contracts more smart than me.
-                    </Description>
-                    <Description>
-                        <strong>Main work</strong>
-                        <ul>
-                            <li>
-                                NFT
-                            </li>
-                            <li>
-                                DApp
-                            </li>
-                            <li>
-                                DAO
-                            </li>
-                        </ul>
-                    </Description>
-                    <Description>
-                        <strong>Tools</strong>
-                        <ul>
-                            <li target="_blank" href="https://solidity-es.readthedocs.io/es/latest/">
-                            Solidity
-                            </li>
-                            <li target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript">
-                            Javascript
-                            </li>
-                            <li target="_blank" href="https://hardhat.org/">
-                            hardhat
-                            </li>
-                        </ul>
-                    </Description>
-
+                <Main>
+                    <BLOCKCHAIN to="/blockchain">
+                        <Title>
+                            <BsCodeSlash width={30} height={30} /> Blockchain Developer
+                        </Title>
+                        <Description>
+                            I love to create smart contracts more smart than me.
+                        </Description>
+                        <Description>
+                            <strong>Main work</strong>
+                            <ul>
+                                <li>
+                                    NFT
+                                </li>
+                                <li>
+                                    DApp
+                                </li>
+                                <li>
+                                    DAO
+                                </li>
+                            </ul>
+                        </Description>
+                        <Description>
+                            <strong>Tools</strong>
+                            <ul>
+                                <li target="_blank" href="https://solidity-es.readthedocs.io/es/latest/">
+                                Solidity
+                                </li>
+                                <li target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+                                Javascript
+                                </li>
+                                <li target="_blank" href="https://hardhat.org/">
+                                hardhat
+                                </li>
+                            </ul>
+                        </Description>
+                    </BLOCKCHAIN>
                 </Main>
                 <Main>
                     <Title>

@@ -186,7 +186,7 @@ const Main = () => {
                     whileTap={{scale: 0.9}}
                     >About</motion.h2>
                 </ABOUT>
-                <SKILLS to="/skills">
+                <SKILLS to="/skills" click={click}>
                 <motion.h2
                 initial={{
                     y:200,
