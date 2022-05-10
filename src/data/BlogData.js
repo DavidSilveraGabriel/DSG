@@ -63,7 +63,7 @@ export const Blogs = [
         name:"github copilot",
         tags:["github","github-copilot"],
         date:"30 april, 2022",
-        imgSrc:"/github.png",
+        imgSrc:"https://wwwhatsnew.com/wp-content/uploads/2021/06/github-copilot.jpg",
         link:"/Github copilot 5aca4c9ea6cd4f1e8fc47c552bb5cec2.md"
     }
 

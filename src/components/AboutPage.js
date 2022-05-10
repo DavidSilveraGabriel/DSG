@@ -68,7 +68,9 @@ const AboutPage = () => {
             <ParticleComponent theme='dark' />
 
             <Saitama>
-                <img src={saitama} alt="saitama" />
+                <a href='https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/97465292781721571611177930354272544023530438298057205090993582575477309046785' target="_blank">
+                    <img src={saitama} alt="saitama" />
+                </a>
             </Saitama>    
             <Main>
             I'm an Argentine Data Scientist and Machine Learning developer. 
