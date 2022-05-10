@@ -10,8 +10,8 @@ import AboutPage from "./components/AboutPage";
 //import WorkPage from "./components/WorkPage";
 import BlogPage from "./components/BlogPage";
 import MySkillsPage from "./components/MySkillsPage";
-import BlockchainPage from "./components/MySkillsPage";
-import DataSciencePage from "./components/MySkillsPage";
+import BlockchainPage from "./components/BlockchainPage";
+import DataSciencePage from "./components/DataSciencePage";
 
 import { AnimatePresence } from "framer-motion";
 import SoundBar from "./subComponents/SoundBar";

@@ -75,12 +75,26 @@ ul,p{
 }
 `
 const BLOCKCHAIN = styled(NavLink)`
-color: ${props => props.click ? props.theme.body : props.theme.text};
+color: ${props => props.theme.text};
+font-size: calc(0.5em + 0.6vw);
+padding: 0.7rem 0;
+${Main}:hover &{
+   
+        color:${props => props.theme.body};
+    
+}
 text-decoration: none;
 z-index:1;
 `
 const DATASCIENCE = styled(NavLink)`
-color: ${props => props.click ? props.theme.body : props.theme.text};
+color: ${props => props.theme.text};
+font-size: calc(0.5em + 0.6vw);
+padding: 0.7rem 0;
+${Main}:hover &{
+   
+        color:${props => props.theme.body};
+    
+}
 text-decoration: none;
 z-index:1;
 `
@@ -132,25 +146,26 @@ const MySkillsPage = () => {
                     </BLOCKCHAIN>
                 </Main>
                 <Main>
-                    <Title>
-                        <BsClipboardData width={30} height={30} /> Data Scientist
-                    </Title>
-                    <Description>
-                        I seek to generate value for companies by making data driven decision
-                    </Description>
-                    <Description>
-                        <strong>Skills</strong>
-                        <p>
-                            Python, matplotlib, numpy, pytorch, pandas, scikit-learn, seaborn, and much more..
-                        </p>
-                    </Description>
-                    <Description>
-                        <strong>Tools</strong>
-                        <p>
-                        VScode, Github, Colab, Anaconda, Jupyter Notebook.
-                        </p>
-                    </Description>
-
+                    <DATASCIENCE to="/datascience">
+                        <Title>
+                            <BsClipboardData width={30} height={30} /> Data Scientist
+                        </Title>
+                        <Description>
+                            I seek to generate value for companies by making data driven decision
+                        </Description>
+                        <Description>
+                            <strong>Skills</strong>
+                            <p>
+                                Python, matplotlib, numpy, pytorch, pandas, scikit-learn, seaborn, and much more..
+                            </p>
+                        </Description>
+                        <Description>
+                            <strong>Tools</strong>
+                            <p>
+                            VScode, Github, Colab, Anaconda, Jupyter Notebook.
+                            </p>
+                        </Description>
+                    </DATASCIENCE>
                 </Main>
 
                 <BigTitle text="SKILLS" top="80%" right="30%" />
