@@ -7,7 +7,7 @@ import GlobalStyle from "./globalstyles"
 //componentes
 import Main from "../src/components/Main";
 import AboutPage from "./components/AboutPage";
-import WorkPage from "./components/WorkPage";
+//import WorkPage from "./components/WorkPage";
 import BlogPage from "./components/BlogPage";
 import MySkillsPage from "./components/MySkillsPage";
 import { AnimatePresence } from "framer-motion";

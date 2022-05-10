@@ -170,20 +170,6 @@ const Main = () => {
                 </motion.h2>
             </BLOG>
 
-            <WORK to="/work" click={click}>
-                <motion.h2
-                initial={{
-                    y:-200,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                animate={{
-                    y:0,
-                    transition: { type:'spring', duration: 1.5, delay:1}
-                }}
-                whileHover={{scale: 1.1}}
-                whileTap={{scale: 0.9}}
-                >Work</motion.h2>
-            </WORK>
 
             <BottomBar>
                 <ABOUT to="/about" click={click}>
