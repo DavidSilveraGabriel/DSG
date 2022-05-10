@@ -33,7 +33,7 @@ function App() {
           {/* <Route exact path="/work" component={WorkPage} />*/}
           <Route exact path="/skills" component={MySkillsPage} />
           <Route exact path="/blockchain" component={BlockchainPage} />
-          <Route exact path="/datascience" component={MySkillsPage} />
+          <Route exact path="/datascience" component={DataSciencePage} />
 
         </Switch>
       </AnimatePresence>
