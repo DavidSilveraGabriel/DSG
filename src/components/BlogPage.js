@@ -5,6 +5,7 @@ import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 //import AnchorComponent from "../subComponents/Anchor";
+import ReactMarkdown from 'react-markdown'
 import {Blogs} from "../data/BlogData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
