@@ -2,27 +2,27 @@
 export const Blogs = [
     {
         id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
+        name:"Analyze and classify public domain EEG(ML) signals provided by physionet.org",
         tags:["react","gsap","styled-components"],
         date:"13 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        imgSrc:"https://camo.githubusercontent.com/aa6c527b5fd69d3e98fc7d821f3c3cf94340ee0c0b99959b96e8a76b7f4810d2/68747470733a2f2f63646e2e746563686e6f6c6f67796e6574776f726b732e636f6d2f746e2f696d616765732f7468756d62732f776562702f3634305f3336302f66697273742d657665722d6e6f6e2d696e7661736976652d627261696e2d636f6d70757465722d696e746572666163652d646576656c6f7065642d3332303934312e776562703f763d3130323430343736",
+        link:"https://github.com/DavidSilveraGabriel/EEG-classification"
     },
     {
         id:2,
-        name:"How to create React Hamburger Menu using Styled-Components",
-        tags:["react","styled-components"],
-        date:"5 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625479747640%2F7KzwP9nmj.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-hamburger-menu"
+        name:"How to create a Computer Pointer Controller with OpenVino",
+        tags:["AI","data sicence", "openvino","python"],
+        date:"7 July, 2020",
+        imgSrc:"https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/3Tfw2FB0j4Jyb2aAfRnLwE/2b80ada7f768f8041ac6ead0e3982597/SEO-Image__2_.jpg",
+        link:"https://github.com/DavidSilveraGabriel/Intel--Edge-AI-for-IoT-Developers---Project-3"
     },
     {
         id:3,
-        name:"React Loading Screen: Try these 3 cool loading screens for your app",
-        tags:["react","react-lottie","styled-components"],
-        date:"6 July, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/react-loading-screens"
+        name:"A collection of resources only dedicated to Data Science path",
+        tags:["resources","data science","knowledge"],
+        date:"11 May, 2022",
+        imgSrc:"https://www.diplomadosonline.com/wp-content/uploads/2020/02/What_is_Data_Science-1080x675.jpg",
+        link:"https://github.com/DavidSilveraGabriel/Data-science-resources"
     }
     
 ] 
