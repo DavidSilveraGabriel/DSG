@@ -72,7 +72,6 @@ const BlogPage = () => {
                 <LogoComponent />
                 <PowerButton />
                 <SocialIcons />
-                {/*<AnchorComponent number={numbers}/>*/}
                 <Center>
                     <Grid>
                         {
