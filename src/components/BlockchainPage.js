@@ -6,7 +6,7 @@ import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 //import AnchorComponent from "../subComponents/Anchor";
 import ReactMarkdown from 'react-markdown'
-import {Blogs} from "../data/BlogData";
+import {Blogs} from "../data/BlockchainData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';

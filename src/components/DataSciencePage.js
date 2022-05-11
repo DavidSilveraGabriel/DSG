@@ -5,7 +5,7 @@ import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import ReactMarkdown from 'react-markdown'
-import {Blogs} from "../data/BlogData";
+import {Blogs} from "../data/DataScienceData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
