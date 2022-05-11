@@ -83,7 +83,7 @@ const BlogPage = () => {
                     </Grid>
                     
                 </Center>
-                <BigTitle text="BLOG" top="5rem" left="5rem" />
+                <BigTitle text="BLOCKCHAIN" top="5rem" left="5rem" />
             </Container>
         </MainContainer>
     );
