@@ -36,7 +36,7 @@ const PowerButton = () => {
     return (
         <Power>
         <NavLink to="/">
-        {/*<PowerBtn width={30} height={30} fill='currentColor' />*/}
+            <PowerBtn width={30} height={30} fill='currentColor' />
         </NavLink>
         </Power>
     )
