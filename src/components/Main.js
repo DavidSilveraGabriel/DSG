@@ -163,7 +163,7 @@ const Main = () => {
                     y:0,
                     transition: { type:'spring', duration: 1.5, delay:1}
                 }}
-                whileHover={{scale: 1.1}}
+                whileHover={{scale: 1.5}}
                 whileTap={{scale: 0.9}}
                 >
                     Blog
