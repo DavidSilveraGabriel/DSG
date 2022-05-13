@@ -131,7 +131,7 @@ const Main = () => {
             <SocialIcons theme={click ? 'dark' : 'light'}/>
             
             <Center click={click}>
-                <YinYang onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+                <YinYang onClick={()=> handleClick()} width={click ? 50 : 200} height={click ? 50 : 200} fill='currentColor' />
                     <span>Click here</span>
             </Center>
             
