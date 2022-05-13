@@ -15,8 +15,8 @@ background-color: #FCF6F4;
 padding: 0.3rem;
 border-radius: 50%;
 border: 1px solid #000;
-width: 2.5rem;
-height: 2.5rem;
+width: 3rem;
+height: 3rem;
 display: flex;
 justify-content: center;
 align-items:center;
@@ -36,7 +36,7 @@ const PowerButton = () => {
     return (
         <Power>
         <NavLink to="/">
-        <PowerBtn width={30} height={30} fill='currentColor' />
+        {/*<PowerBtn width={30} height={30} fill='currentColor' />*/}
         </NavLink>
         </Power>
     )
