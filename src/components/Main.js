@@ -83,7 +83,7 @@ to{
 
 const Center = styled.button`
 position: absolute;
-top: ${props => props.click ? '12%' :'50%'  };
+top: ${props => props.click ? '10%' :'50%'  };
 left: ${props => props.click ? '94%' :'50%'  };
 transform: translate(-50%,-50%);
 border: none;
