@@ -135,7 +135,7 @@ const Main = () => {
                     <span>Click here</span>
             </Center>
             
-            {/*<Contact target="_blank" to={{pathname:"mailto:ingenieria.d.s.g@hotmail.com"}}>
+            <Contact target="_blank" to={{pathname:"mailto:ingenieria.d.s.g@hotmail.com"}}>
             <motion.h2
                 initial={{
                     y:-200,
@@ -152,7 +152,7 @@ const Main = () => {
                     Say hi..
                 </motion.h2>
             </Contact>
-        */}
+        
             <BLOG to="/blog">
                 <motion.h2
                 initial={{
