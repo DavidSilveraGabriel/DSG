@@ -164,7 +164,7 @@ const Main = () => {
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                 whileHover={{scale: 1.5}}
-                whileTap={{scale: 0.9}}
+                whileTap={{scale: 1.2}}
                 >
                     Blog
                 </motion.h2>
@@ -183,7 +183,7 @@ const Main = () => {
                         transition: { type:'spring', duration: 3, delay:2}
                     }}
                     whileHover={{scale: 1.5}}
-                    whileTap={{scale: 0.9}}
+                    whileTap={{scale: 1.2}}
                     >About</motion.h2>
                 </ABOUT>
                 <SKILLS to="/skills" click={click}>
@@ -197,7 +197,7 @@ const Main = () => {
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                  whileHover={{scale: 1.5}}
-                whileTap={{scale: 0.9}}
+                whileTap={{scale: 1.2}}
                 >
                     My Skills.
                 </motion.h2>
