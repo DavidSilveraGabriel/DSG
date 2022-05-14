@@ -83,8 +83,8 @@ to{
 
 const Center = styled.button`
 position: absolute;
-top: ${props => props.click ? '8%' :'50%'  };
-left: ${props => props.click ? '50%' :'50%'  };
+top: ${props => props.click ? '85%' :'50%'  };
+left: ${props => props.click ? '92%' :'50%'  };
 transform: translate(-50%,-50%);
 border: none;
 outline: none;
@@ -131,7 +131,7 @@ const Main = () => {
             <SocialIcons theme={click ? 'dark' : 'light'}/>
             
             <Center click={click}>
-                <YinYang onClick={()=> handleClick()} width={click ? 50 : 200} height={click ? 50 : 200} fill='currentColor' />
+                <YinYang onClick={()=> handleClick()} width={click ? 100 : 200} height={click ? 100 : 200} fill='currentColor' />
                     <span>Click here</span>
             </Center>
             
