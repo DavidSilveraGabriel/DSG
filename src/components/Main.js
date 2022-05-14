@@ -159,9 +159,11 @@ const Main = () => {
                     y:-200,
                     transition: { type:'spring', duration: 1.5, delay:1}
                 }}
-                animate={{
-                    y:0,
-                    transition: { type:'spring', duration: 1.5, delay:1}
+                animate={{ rotate: 180 }}
+                transition={{
+                    repeat: 1,
+                    repeatType: "reverse",
+                    duration: 2
                 }}
                 whileHover={{scale: 1.5}}
                 whileTap={{scale: 0.9}}
