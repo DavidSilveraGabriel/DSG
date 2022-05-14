@@ -145,7 +145,7 @@ const Main = () => {
                     y:0,
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
-                whileHover={{scale: 1.1}}
+                whileHover={{scale: 1.5}}
                 whileTap={{scale: 0.9}}
                 
                 >
@@ -157,13 +157,11 @@ const Main = () => {
                 <motion.h2
                 initial={{
                     y:-200,
-                    transition: { type:'spring', duration: 1.5, delay:1}
+                    transition: { type:'spring', duration: 3, delay:2}
                 }}
-                animate={{ rotate: 180 }}
-                transition={{
-                    repeat: 1,
-                    repeatType: "reverse",
-                    duration: 2
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 3, delay:2}
                 }}
                 whileHover={{scale: 1.5}}
                 whileTap={{scale: 0.9}}
@@ -178,13 +176,13 @@ const Main = () => {
                     <motion.h2
                     initial={{
                         y:200,
-                        transition: { type:'spring', duration: 1.5, delay:1}
+                        transition: { type:'spring', duration: 3, delay:2}
                     }}
                     animate={{
                         y:0,
-                        transition: { type:'spring', duration: 1.5, delay:1}
+                        transition: { type:'spring', duration: 3, delay:2}
                     }}
-                    whileHover={{scale: 1.1}}
+                    whileHover={{scale: 1.5}}
                     whileTap={{scale: 0.9}}
                     >About</motion.h2>
                 </ABOUT>
@@ -192,13 +190,13 @@ const Main = () => {
                 <motion.h2
                 initial={{
                     y:200,
-                    transition: { type:'spring', duration: 1.5, delay:1}
+                    transition: { type:'spring', duration: 3, delay:2}
                 }}
                 animate={{
                     y:0,
-                    transition: { type:'spring', duration: 1.5, delay:1}
+                    transition: { type:'spring', duration: 3, delay:2}
                 }}
-                 whileHover={{scale: 1.1}}
+                 whileHover={{scale: 1.5}}
                 whileTap={{scale: 0.9}}
                 >
                     My Skills.
