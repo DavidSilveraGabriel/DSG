@@ -14,13 +14,13 @@ transform: translate(-50%, 0);
 background-color: #FCF6F4;
 padding: 0.3rem;
 border-radius: 50%;
-border: 1px solid #000;
+border: 1px #000;
 width: 0rem;
 height: 0rem;
 display: flex;
 justify-content: center;
 align-items:center;
-z-index:3;
+z-index:1;
 cursor: pointer;
 &:hover{
     background-color: rgb(105,105,105);
