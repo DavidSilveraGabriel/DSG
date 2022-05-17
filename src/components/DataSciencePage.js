@@ -51,12 +51,7 @@ const container = {
   
   }
 const BlogPage = () => {
-    const [numbers, setNumbers] = useState(0);
-
-    useEffect(() => {
-        let num = (window.innerHeight - 70)/30;
-        setNumbers(parseInt(num));
-    }, [])
+    
     return (
         <MainContainer 
         variants={container}
