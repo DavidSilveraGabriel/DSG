@@ -132,13 +132,13 @@ const MySkillsPage = () => {
                         <Description>
                             <strong>Tools</strong>
                             <ul>
-                                <li target="_blank" href="https://solidity-es.readthedocs.io/es/latest/">
+                                <li>
                                 Solidity
                                 </li>
-                                <li target="_blank" href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+                                <li>
                                 Javascript
                                 </li>
-                                <li target="_blank" href="https://hardhat.org/">
+                                <li>
                                 hardhat
                                 </li>
                             </ul>
