@@ -43,7 +43,7 @@ background: ${props => props.theme.text};
 border: 2px solid ${props => props.theme.body};
 animation:${play} 2s ease infinite;
 animation-play-state: ${props => props.click ? "running" : "paused"};
-height: 2rem;
+height: 1.5rem;
 width: 2px;
 margin:0 0.1rem
 `
