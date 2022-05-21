@@ -5,7 +5,6 @@ import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 //import AnchorComponent from "../subComponents/Anchor";
-import ReactMarkdown from 'react-markdown'
 import {Blogs} from "../data/BlogData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
@@ -53,12 +52,7 @@ const container = {
   
   }
 const BlogPage = () => {
-    const [numbers, setNumbers] = useState(0);
-
-    useEffect(() => {
-        let num = (window.innerHeight - 70)/30;
-        setNumbers(parseInt(num));
-    }, [])
+    
     return (
         <MainContainer 
         variants={container}
@@ -72,7 +66,7 @@ const BlogPage = () => {
                 <LogoComponent />
                 <PowerButton />
                 <SocialIcons />
-                {/*<AnchorComponent number={numbers}/>*/}
+                
                 <Center>
                     <Grid>
                         {

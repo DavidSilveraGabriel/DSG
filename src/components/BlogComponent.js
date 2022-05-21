@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
 
 const Box = styled(motion(NavLink))`
 width: calc(10rem + 15vw);
@@ -76,8 +78,16 @@ const Item = {
     }
 }
 const BlogComponent = (props) => {
+    const [content, setContent] = useState("");
     const {name, tags, date, imgSrc, link} = props.blog;
+
+    useEffect(() => {
+        fetch(link)
+        .then((res) => res.text())
+        .then((text) => setContent(text));
+    }, []);
     return (
+        
         <Container
         variants={Item}>
         <Box target="_blank" to={{pathname: link}}>
@@ -87,11 +97,12 @@ const BlogComponent = (props) => {
                 {
                     tags.map((t,id) => {
                         return <Tag key={id}>#{t}</Tag>
+                        
                     })
                 }
             </HashTags>
             <Date>{date}</Date>
-
+            <ReactMarkdown children={content} />
         </Box>
         </Container>
     )
