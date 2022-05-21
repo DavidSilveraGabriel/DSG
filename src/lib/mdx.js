@@ -9,6 +9,8 @@ export const getFiles = () => {
     fs.readFileSync(path.join(root,'src/data/blogs'))
 };
 
-export const getFileBySlug = ({ slug }) => {}
+export const getFileBySlug = ({ slug }) => {
+    const mdxSource =  fs.readFileSync(path.join(root,'src/data/blogs', '${slug}.mdx'), 'utf8');
+};
 
 export const getAllFilesMetadata = () => {};
