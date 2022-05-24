@@ -32,5 +32,5 @@ export const getAllFilesMetadata = () => {
         const data = matter(mdxSource);
 
         return [{...data, slug: postSlug.replace('.mdx','')}, ...allPosts];
-    });
+    },[]);
 };
