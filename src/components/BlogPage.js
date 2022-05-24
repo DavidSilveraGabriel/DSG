@@ -10,7 +10,7 @@ import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
 //import Blog from "./Blog";
-//import { getAllFilesMetadata } from "../../src/lib/mdx";
+import { getAllFilesMetadata } from "../../src/lib/mdx";
 
 const MainContainer = styled(motion.div)`
 background-color: white;
