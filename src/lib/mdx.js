@@ -9,8 +9,28 @@ export const getFiles = () => {
     fs.readFileSync(path.join(root,'src/data/blogs'))
 };
 
-export const getFileBySlug = ({ slug }) => {
-    const mdxSource =  fs.readFileSync(path.join(root,'src/data/blogs', '${slug}.mdx'), 'utf8');
+export const getFileBySlug = async ({ slug }) => {
+    const mdxSource =  fs.readFileSync(
+        path.join(root,'src/data/blogs', '${slug}.mdx'), 'utf8'
+        );
+    const [data, content] = await matter(mdxSource);
+    const source = await serialize(content,{})// buscar mdx pism
+    return {
+        source,
+        frontmatter: {
+            slug,
+            ...data,
+        },
+    };
 };
 
-export const getAllFilesMetadata = () => {};
+export const getAllFilesMetadata = () => {
+    const files = getFiles();
+
+    return files.reduce((allPosts, postSlug) => {
+        const mdxSource = fs.readFileSync(path.join(root,'src/data/blogs', '${slug}.mdx'), 'utf8');
+        const data = matter(mdxSource);
+
+        return [{...data, slug: postSlug.replace('.mdx','')}, ...allPosts];
+    });
+};
