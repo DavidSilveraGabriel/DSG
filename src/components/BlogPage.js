@@ -84,14 +84,10 @@ const BlogPage = ({ posts }) => {
     );
 }
 export default BlogPage;
-{/*}
+
 export async function getStaticProps() {
     const posts = await getAllFilesMetadata();
     return {
       props: {posts},
     };
   }
-  <div>
-
-  </div> 
-  */}
