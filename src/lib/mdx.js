@@ -1,41 +1,4 @@
-import fs from 'fs';
-import path from 'path';
-import matter from "gray-matter";
-import {serialize} from 'next-mdx-remote/serialize';
-
-const root = process.cwd();
-
-export const getFiles = () => {
-    fs.readFileSync(path.join(root,'src/data/blogs'))
-};
-
-export const getFileBySlug = async ({ slug }) => {
-    const mdxSource =  fs.readFileSync(
-        path.join(root,'src/data/blogs', '${slug}.mdx'), 'utf8'
-        );
-    const [data, content] = await matter(mdxSource);
-    const source = await serialize(content,{})// buscar mdx pism
-    return {
-        source,
-        frontmatter: {
-            slug,
-            ...data,
-        },
-    };
-};
-
-export const getAllFilesMetadata = () => {
-    const files = getFiles();
-
-    return files.reduce((allPosts, postSlug) => {
-        const mdxSource = fs.readFileSync(path.join(root,'src/data/blogs', '${slug}.mdx'), 'utf8');
-        const data = matter(mdxSource);
-
-        return [{...data, slug: postSlug.replace('.mdx','')}, ...allPosts];
-    },[]);
-};
-
-{/*import fs from "fs";
+import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
@@ -49,8 +12,8 @@ export const getFiles = async (type) =>
 
 export const getFileBySlug = async (type, slug) => {
   const mdxSource = slug
-    ? fs.readFileSync(path.join(root, "data", type, `${slug}.mdx`), "utf8")
-    : fs.readFileSync(path.join(root, "data", `${type}.mdx`), "utf8");
+    ? fs.readFileSync(path.join(root, "src/data/blogs", type, `${slug}.mdx`), "utf8")
+    : fs.readFileSync(path.join(root, "src/data/blogs", `${type}.mdx`), "utf8");
 
   const { data, content } = await matter(mdxSource);
 
@@ -89,4 +52,4 @@ export const getAllFilesFrontMatter = async (type) => {
       ...allPosts,
     ];
   }, []);
-};*/}
+};

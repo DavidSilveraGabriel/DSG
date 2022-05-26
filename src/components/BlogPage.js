@@ -10,7 +10,7 @@ import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
 //import Blog from "./Blog";
-import { getAllFilesMetadata } from "../../src/lib/mdx";
+//import { getAllFilesMetadata } from "../../src/lib/mdx";
 
 const MainContainer = styled(motion.div)`
 background-color: white;
@@ -52,7 +52,7 @@ const container = {
     }
   
   }
-const BlogPage = ({ posts }) => {
+const BlogPage = () => {
     
     return (
         <MainContainer 
@@ -83,11 +83,13 @@ const BlogPage = ({ posts }) => {
         </MainContainer>
     );
 }
-export default BlogPage;
 
+export default BlogPage;
+{/*
 export async function getStaticProps() {
     const posts = await getAllFilesMetadata();
     return {
       props: {posts},
     };
   }
+*/}
