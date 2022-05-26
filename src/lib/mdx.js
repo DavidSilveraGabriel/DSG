@@ -8,12 +8,12 @@ import mdxPrism from "mdx-prism";
 const root = process.cwd();
 
 export const getFiles = async (type) =>
-  fs.readdirSync(path.join(root, "data", type));
+  fs.readdirSync(path.join(root, "src/data/blog", type));
 
 export const getFileBySlug = async (type, slug) => {
   const mdxSource = slug
-    ? fs.readFileSync(path.join(root, "src/data/blogs", type, `${slug}.mdx`), "utf8")
-    : fs.readFileSync(path.join(root, "src/data/blogs", `${type}.mdx`), "utf8");
+    ? fs.readFileSync(path.join(root, "src/data/blog", type, `${slug}.mdx`), "utf8")
+    : fs.readFileSync(path.join(root, "src/data/blog", `${type}.mdx`), "utf8");
 
   const { data, content } = await matter(mdxSource);
 
