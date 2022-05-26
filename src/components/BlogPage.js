@@ -52,7 +52,7 @@ const container = {
     }
   
   }
-const BlogPage = () => {
+const BlogPage = ({ posts }) => {
     
     return (
         <MainContainer 
