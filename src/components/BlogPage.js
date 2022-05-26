@@ -9,6 +9,8 @@ import {Blogs} from "../data/BlogData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
+import Image from 'next/image';
+import Link from 'next/link';
 //import Blog from "./Blog";
 //import { getAllFilesMetadata } from "../../src/lib/mdx";
 
@@ -70,11 +72,24 @@ const BlogPage = ({ posts }) => {
                 
                 <Center>
                     <Grid>
-                        {
-                            Blogs.map(blog => {
-                                return <BlogComponent key={blog.id} blog={blog} />
-                            })
-                        }
+                      {posts.map(({ slug, frontmatter }) => (
+                        <div
+                          key={slug}
+                          className='border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col'
+                        >
+                          <Link href={`/blog/${slug}`}>
+                            <a>
+                              <Image
+                                width={650}
+                                height={340}
+                                alt={frontmatter.title}
+                                src={`/${frontmatter.socialImage}`}
+                              />
+                              <h1 className='p-4'>{frontmatter.title}</h1>
+                            </a>
+                          </Link>
+                        </div>
+                      ))}
                     </Grid>
                     
                 </Center>
