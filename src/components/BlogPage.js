@@ -1,6 +1,5 @@
 import react, { useEffect, useState } from 'react'
 import styled from "styled-components";
-import img from "../assets/Images/libro.jpg";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
@@ -9,8 +8,6 @@ import {Blogs} from "../data/BlogData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import Link from 'next/link';
 //import Blog from "./Blog";
 //import { getAllFilesMetadata } from "../../src/lib/mdx";
 
@@ -54,7 +51,7 @@ const container = {
     }
   
   }
-const BlogPage = ({ posts }) => {
+const BlogPage = () => {
     
     return (
         <MainContainer 
@@ -71,26 +68,14 @@ const BlogPage = ({ posts }) => {
                 <SocialIcons />
                 
                 <Center>
-                    <Grid>
-                      {posts.map(({ slug, frontmatter }) => (
-                        <div
-                          key={slug}
-                          className='border border-gray-200 m-2 rounded-xl shadow-lg overflow-hidden flex flex-col'
-                        >
-                          <Link href={`/blog/${slug}`}>
-                            <a>
-                              <Image
-                                width={650}
-                                height={340}
-                                alt={frontmatter.title}
-                                src={`/${frontmatter.socialImage}`}
-                              />
-                              <h1 className='p-4'>{frontmatter.title}</h1>
-                            </a>
-                          </Link>
-                        </div>
-                      ))}
-                    </Grid>
+                <Grid>
+
+                  {
+                      Blogs.map(blog => {
+                          return <BlogComponent key={blog.id} blog={blog} />
+                      })
+                  }
+                  </Grid>
                     
                 </Center>
                 <BigTitle text="BLOG" top="5rem" left="5rem" />
@@ -100,11 +85,3 @@ const BlogPage = ({ posts }) => {
 }
 
 export default BlogPage;
-{/*
-export async function getStaticProps() {
-    const posts = await getAllFilesMetadata();
-    return {
-      props: {posts},
-    };
-  }
-*/}

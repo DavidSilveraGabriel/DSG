@@ -1,13 +1,10 @@
-import React from 'react'
-import Particles from 'react-particles-js'
-import styled from 'styled-components'
-
+import React from 'react';
+import styled from 'styled-components';
+import Particles from 'react-tsparticles';
 
 //particle config files
 import configDark from "../config/particlesjs-config.json";
 import configLight from "../config/particlesjs-config-light.json";
-
-
 
 
 const Box = styled.div`
@@ -20,11 +17,14 @@ z-index:0;
 `
 
 const ParticleComponent = (props) => {
+    
     return (
         <Box>
-            <Particles style={{position:'absolute',top:0}}   params={props.theme === "light" ? configLight : configDark   } />
+            <Particles style={{position:'absolute',top:0}} options={props.theme === "light" ? configLight : configDark} />
         </Box>
     )
 }
 
 export default ParticleComponent
+
+

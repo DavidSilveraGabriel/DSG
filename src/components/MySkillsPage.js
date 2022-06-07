@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import {LightTheme} from './Themes';
-import { Design, Develope} from './AllSvgs';
 import { BsCodeSlash, BsClipboardData} from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 
@@ -9,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
-import ParticleComponent from '../subComponents/ParticleComponent';
+//import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
 
 const Box = styled.div`
@@ -106,7 +105,7 @@ const MySkillsPage = () => {
                 <LogoComponent theme='light'/>
                 <SocialIcons theme='light'/>
                 <PowerButton />
-                <ParticleComponent theme='light' />
+                {/*<ParticleComponent theme='light' />*/}
                 <Main>
                     <BLOCKCHAIN to="/blockchain">
                         <Title>
