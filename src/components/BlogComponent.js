@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
 
 const Box = styled(motion(NavLink))`
 width: calc(10rem + 15vw);

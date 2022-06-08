@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import {LightTheme} from './Themes';
-import { Design, Develope} from './AllSvgs';
 import { BsCodeSlash, BsClipboardData} from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 
