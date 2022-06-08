@@ -6,7 +6,7 @@ import {DarkTheme} from './Themes';
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
-//import ParticleComponent from '../subComponents/ParticleComponent';
+import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
 import saitama from '../assets/Images/saitama-white.png'
 
@@ -65,13 +65,13 @@ const AboutPage = () => {
             <LogoComponent theme='dark'/>
             <SocialIcons theme='dark'/>
             <PowerButton />
-            {/*<ParticleComponent theme='dark' />*/}
+            <ParticleComponent theme='dark' />
 
             <Saitama>
-                <a href='https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/97465292781721571611177930354272544023530438298057205090993582575477309046785' target="_blank" rel="noreferrer">
+                <a href='https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/97465292781721571611177930354272544023530438298057205090993582575477309046785' target="_blank">
                     <img src={saitama} alt="saitama" />
                 </a>
-            </Saitama> 
+            </Saitama>    
             <Main>
             I'm an Argentine Data Scientist and Machine Learning developer. 
             my work consists of Collect, process, 

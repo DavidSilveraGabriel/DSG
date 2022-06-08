@@ -1,5 +1,6 @@
 import react, { useEffect, useState } from 'react'
 import styled from "styled-components";
+import img from "../assets/Images/libro.jpg";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
@@ -9,7 +10,6 @@ import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
 //import Blog from "./Blog";
-//import { getAllFilesMetadata } from "../../src/lib/mdx";
 
 const MainContainer = styled(motion.div)`
 background-color: white;
@@ -68,14 +68,13 @@ const BlogPage = () => {
                 <SocialIcons />
                 
                 <Center>
-                <Grid>
-
-                  {
-                      Blogs.map(blog => {
-                          return <BlogComponent key={blog.id} blog={blog} />
-                      })
-                  }
-                  </Grid>
+                    <Grid>
+                        {
+                            Blogs.map(blog => {
+                                return <BlogComponent key={blog.id} blog={blog} />
+                            })
+                        }
+                    </Grid>
                     
                 </Center>
                 <BigTitle text="BLOG" top="5rem" left="5rem" />
@@ -83,5 +82,4 @@ const BlogPage = () => {
         </MainContainer>
     );
 }
-
 export default BlogPage;

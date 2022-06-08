@@ -1,9 +1,3 @@
----
-Created: November 5, 2021
-Status: Complete
-Type: Un post
----
-
 # Github copilot
 
 Created: November 5, 2021
