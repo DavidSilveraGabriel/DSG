@@ -1,6 +1,5 @@
 import react, { useEffect, useState } from 'react'
 import styled from "styled-components";
-import img from "../assets/Images/libro.jpg";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
