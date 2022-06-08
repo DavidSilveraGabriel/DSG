@@ -141,7 +141,9 @@ const MySkillsPage = () => {
                                 hardhat
                                 </li>
                             </ul>
+                            
                         </Description>
+                        <p>[####-----------------------------10%] in progress, be patient</p>
                     </BLOCKCHAIN>
                 </Main>
                 <Main>
