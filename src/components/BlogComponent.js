@@ -77,7 +77,6 @@ const Item = {
     }
 }
 const BlogComponent = (props) => {
-    const [content, setContent] = useState("");
     const {name, tags, date, imgSrc, link} = props.blog;
 
     
