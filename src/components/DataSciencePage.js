@@ -1,4 +1,4 @@
-import react, { useEffect, useState } from 'react'
+import react from 'react'
 import styled from "styled-components";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";

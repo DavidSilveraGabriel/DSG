@@ -24,14 +24,7 @@ const Container = styled.div`
 padding: 2rem;
 `
 
-const Contact = styled(NavLink)`
-color: ${props => props.theme.text};
-position: absolute;
-top: 2rem;
-right: calc(1rem + 2vw);
-text-decoration: none;
-z-index:1;
-`
+
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;

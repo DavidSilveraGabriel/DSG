@@ -1,15 +1,12 @@
 import react, { useEffect, useState } from 'react'
 import styled from "styled-components";
-import img from "../assets/Images/libro.jpg";
 import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
-//import AnchorComponent from "../subComponents/Anchor";
 import {Blogs} from "../data/BlogData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
-//import Blog from "./Blog";
 
 const MainContainer = styled(motion.div)`
 background-color: white;
