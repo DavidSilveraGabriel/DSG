@@ -9,7 +9,6 @@ import {Blogs} from "../data/BlockchainData";
 import BlogComponent from "./BlogComponent";
 import BigTitle from "../subComponents/BigTitlte";
 import { motion } from 'framer-motion';
-//import Blog from "./Blog";
 
 const MainContainer = styled(motion.div)`
 background-color: white;
