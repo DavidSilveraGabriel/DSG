@@ -56,13 +56,23 @@ const Main =  styled.div`
   font-family: 'Montserrat', 'Ubuntu Mono', 'monospace';
   font-style: italic;
 `
+const BottomBar = styled.div`
+position: absolute;
+bottom: 1rem;
+left: 0;
+right: 0;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+`
+const SKILLS = styled(NavLink)`
+color: ${props => props.theme.text};
+text-decoration: none;
+z-index:1;
+`
 
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
-position: absolute;
-top: 90%;
-right: 85%;
-transform: rotate(0deg) translate(-100%, -50%);
 text-decoration: none;
 z-index:1;
 `
@@ -99,10 +109,12 @@ const AboutPage = () => {
 
 
         </Box>
-        <BLOG to="/blog">
+        
+            <BottomBar>
+            <BLOG to="/blog">
                 <motion.h2
                 initial={{
-                    y:400,
+                    y:200,
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                 animate={{
@@ -115,6 +127,23 @@ const AboutPage = () => {
                     Blog
                 </motion.h2>
             </BLOG>
+                <SKILLS to="/skills">
+                <motion.h2
+                initial={{
+                    y:200,
+                    transition: { type:'spring', duration: 3, delay:2}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 3, delay:2}
+                }}
+                 whileHover={{scale: 1.5}}
+                whileTap={{scale: 1.2}}
+                >
+                    Skills.
+                </motion.h2>
+                </SKILLS>
+            </BottomBar>
         </ThemeProvider>
         
     )
