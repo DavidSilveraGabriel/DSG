@@ -73,9 +73,10 @@ const AboutPage = () => {
                 </a>
             </Saitama>    
             <Main>
-            I'm an Argentine Data Scientist and Machine Learning developer. 
-            my work consists of Collect, process, 
-            analyze and present data for supporting everyday business decisions to driving global change.
+            I'm an Argentine Self-taught Data Scientist and Machine Learning developer with +2 years of experience. 
+            i've worked as a freelancer in the areas of neuroscience, developing an end-to-end EEG classifier
+            for move an arduino robot with the mind, also computer vision, creating an app that controls
+            the mouse estimating the pose of the head and eyes, and education as a tutor
             <br/> <br/>
             I believe that the future is closely linked to web 3.0, so my goal will be to move to that risky side,
             full of volatility, expectations for the moon and uncertainty,
