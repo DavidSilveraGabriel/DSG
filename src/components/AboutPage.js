@@ -2,6 +2,9 @@ import React from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
 import {DarkTheme} from './Themes';
 
+import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
+
 
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
@@ -54,7 +57,15 @@ const Main =  styled.div`
   font-style: italic;
 `
 
-
+const BLOG = styled(NavLink)`
+color: ${props => props.theme.text};
+position: absolute;
+top: 50%;
+right: calc(1rem + 2vw);
+transform: rotate(90deg) translate(-50%, -50%);
+text-decoration: none;
+z-index:1;
+`
 
 
 const AboutPage = () => {
@@ -88,7 +99,22 @@ const AboutPage = () => {
 
 
         </Box>
-
+        <BLOG to="/blog">
+                <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 3, delay:2}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 3, delay:2}
+                }}
+                whileHover={{scale: 1.5}}
+                whileTap={{scale: 1.2}}
+                >
+                    Blog
+                </motion.h2>
+            </BLOG>
         </ThemeProvider>
         
     )
