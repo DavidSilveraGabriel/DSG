@@ -24,7 +24,7 @@ const float = keyframes`
 `
 const Saitama = styled.div`
 position: absolute;
-top: 10%;
+top: 20%;
 right: 5%;
 width: 20vw;
 animation: ${float} 4s ease infinite;
