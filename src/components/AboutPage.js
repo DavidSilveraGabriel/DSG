@@ -62,7 +62,7 @@ color: ${props => props.theme.text};
 position: absolute;
 top: 50%;
 right: calc(1rem + 2vw);
-transform: rotate(90deg) translate(-50%, -50%);
+transform: rotate(0deg) translate(-10%, 50%);
 text-decoration: none;
 z-index:1;
 `
