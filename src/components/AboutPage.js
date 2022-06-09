@@ -60,9 +60,9 @@ const Main =  styled.div`
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
-top: 50%;
-right: calc(1rem + 2vw);
-transform: rotate(0deg) translate(-10%, 50%);
+top: 90%;
+right: 85%;
+transform: rotate(0deg) translate(-100%, -50%);
 text-decoration: none;
 z-index:1;
 `
@@ -102,7 +102,7 @@ const AboutPage = () => {
         <BLOG to="/blog">
                 <motion.h2
                 initial={{
-                    y:-200,
+                    y:400,
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                 animate={{
