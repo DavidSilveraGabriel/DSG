@@ -38,7 +38,7 @@ const Main =  styled.div`
   color: ${(props) => props.theme.text};
   padding: 2rem;
   width: 50vw;
-  height: 60vh;
+  height: 35vh;
   z-index: 3;
   line-height: 1.5;
   display: flex;
