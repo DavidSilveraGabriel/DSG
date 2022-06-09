@@ -44,13 +44,13 @@ const Main =  styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.7rem + 0.4vw);
  backdrop-filter: blur(4px);
   
   position: absolute;
   left: calc(5rem + 5vw);
   top: 10rem;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Montserrat', 'Ubuntu Mono', 'monospace';
   font-style: italic;
 `
 
