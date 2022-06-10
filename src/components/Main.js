@@ -27,8 +27,12 @@ padding: 2rem;
 
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
+position: absolute;
+bottom: 77%;
+left: 95%;
+transform: rotate(0deg) translate(50%, -50%);
 text-decoration: none;
-z-index:0;
+z-index:1;
 `
 
 const BottomBar = styled.div`
@@ -133,7 +137,22 @@ const Main = () => {
                 </motion.h2>
             </Contact>*/}
         
-            
+        <BLOG to="/blog">
+                <motion.h2
+                initial={{
+                    y:-200,
+                    transition: { type:'spring', duration: 3, delay:2}
+                }}
+                animate={{
+                    y:0,
+                    transition: { type:'spring', duration: 3, delay:2}
+                }}
+                whileHover={{scale: 1.5}}
+                whileTap={{scale: 1.2}}
+                >
+                    Blog
+                </motion.h2>
+            </BLOG>
 
 
             <BottomBar>
@@ -151,22 +170,7 @@ const Main = () => {
                     whileTap={{scale: 1.2}}
                     >About</motion.h2>
                 </ABOUT>
-                <BLOG to="/blog">
-                <motion.h2
-                initial={{
-                    y:-200,
-                    transition: { type:'spring', duration: 3, delay:2}
-                }}
-                animate={{
-                    y:0,
-                    transition: { type:'spring', duration: 3, delay:2}
-                }}
-                whileHover={{scale: 1.5}}
-                whileTap={{scale: 1.2}}
-                >
-                    Blog
-                </motion.h2>
-            </BLOG>
+               
                 <SKILLS to="/skills" click={click}>
                 <motion.h2
                 initial={{
