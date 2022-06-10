@@ -140,11 +140,12 @@ const Main = () => {
         <BLOG to="/blog">
                 <motion.h2
                 initial={{
-                    y:-200,
+                    x: 100,
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                 animate={{
                     y:0,
+                    x:0,
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                 whileHover={{scale: 1.5}}
