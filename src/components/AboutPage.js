@@ -94,10 +94,12 @@ const AboutPage = () => {
                 </a>
             </Saitama>    
             <Main>
-            I'm an Argentine Self-taught Data Scientist and Machine Learning developer with +2 years of experience. 
-            i've worked as a freelancer in the areas of neuroscience, developing an end-to-end EEG classifier
-            for move an arduino robot with the mind, also computer vision, creating an app that controls
-            the mouse estimating the pose of the head and eyes, and education as a tutor
+            I'm an Argentine Self-taught Data Scientist with +2 years of experience, 
+            worked as a freelancer in the areas of neuroscience, developing an end-to-end 
+            EEG classifier for move an arduino robot with the mind in just 3 month, 
+            also computer vision, creating an app that controls the mouse estimating 
+            the pose of the head and eyes, and today in education as a tutor of data science.
+
             <br/> <br/>
             I believe that the future is closely linked to web 3.0, so my goal will be to move to that risky side,
             full of volatility, expectations for the moon and uncertainty,
