@@ -112,13 +112,15 @@ const MySkillsPage = () => {
                             <BsCodeSlash width={30} height={30} /> Blockchain Developer
                         </Title>
                         <Description>
-                            I love to create smart contracts more smart than me.
+                            I believe the emergence of blockchain technology and decentralized applications 
+                            will change the world as we know it, and it’s already happening.
                         </Description>
                         <Description>
                             <strong>Main work</strong>
                             <ul>
                                 <li>
-                                    NFT
+                                Work with the Terminal Product and Engineering 
+                                team to build the world’s easiest to use Web3 developer platform
                                 </li>
                                 <li>
                                     DApp
@@ -128,21 +130,8 @@ const MySkillsPage = () => {
                                 </li>
                             </ul>
                         </Description>
-                        <Description>
-                            <strong>Tools</strong>
-                            <ul>
-                                <li>
-                                Solidity
-                                </li>
-                                <li>
-                                Javascript
-                                </li>
-                                <li>
-                                hardhat
-                                </li>
-                            </ul>
-                            
-                        </Description>
+                        
+                        
                         <p>[####-----------------------------10%] in progress, be patient</p>
                     </BLOCKCHAIN>
                 </Main>
