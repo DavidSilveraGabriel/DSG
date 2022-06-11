@@ -120,13 +120,11 @@ const MySkillsPage = () => {
                             <ul>
                                 <li>
                                 Work with the Terminal Product and Engineering 
-                                team to build the world’s easiest to use Web3 developer platform
+                                team to build the world’s easiest to use Web3 developer platform.
                                 </li>
                                 <li>
-                                    DApp
-                                </li>
-                                <li>
-                                    DAO
+                                Implement front edge user experience designs bridging complex 
+                                blockchain interactions and information.
                                 </li>
                             </ul>
                         </Description>
