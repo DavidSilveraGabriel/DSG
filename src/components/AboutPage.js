@@ -104,7 +104,7 @@ const AboutPage = () => {
             I believe that the future is closely linked to web 3.0, so my goal will be to move to that risky side,
             full of volatility, expectations for the moon and uncertainty,
             since I love learning about new things,
-            I am curious by nature and I love it be updated in all areas in which I develop both personally and professionally
+            I am curious by nature and I love be updated in all areas in which I develop both personally and professionally
             </Main>
 
             <BigTitle text="ABOUT" top="10%" left="5%" />
