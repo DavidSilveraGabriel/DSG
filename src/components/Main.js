@@ -24,7 +24,14 @@ const Container = styled.div`
 padding: 2rem;
 `
 
-
+const Contact = styled(NavLink)`
+color: ${props => props.theme.text};
+position: absolute;
+bottom: 50%;
+left: 2rem;
+text-decoration: none;
+z-index:1;
+`
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
@@ -119,7 +126,7 @@ const Main = () => {
                     <span>Click here</span>
             </Center>
             
-            {/*<Contact target="_blank" to={{pathname:"mailto:ingenieria.d.s.g@hotmail.com"}}>
+            <Contact target="_blank" to={{pathname:"../assets/cv/David_CV.pdf"}}>
             <motion.h2
                 initial={{
                     y:-200,
@@ -135,7 +142,7 @@ const Main = () => {
                 >
                     Say hi..
                 </motion.h2>
-            </Contact>*/}
+            </Contact>
         
         <BLOG to="/blog">
                 <motion.h2

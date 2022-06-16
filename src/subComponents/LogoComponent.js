@@ -15,7 +15,7 @@ z-index: 3;
 `
 const LogoComponent = (props) => {
     return (
-        <Logo color={props.theme}>
+        <Logo color={props.theme} target="_blank" to={{pathname:"mailto:ingenieria.d.s.g@hotmail.com"}}>
             DAVID
         </Logo>
     );
