@@ -124,7 +124,7 @@ const AboutPage = () => {
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                 whileHover={{scale: 1.5}}
-                whileTap={{scale: 1.2}}
+                whileTap={{scale: 1.5}}
                 >
                     Blog
                 </motion.h2>
@@ -140,7 +140,7 @@ const AboutPage = () => {
                     transition: { type:'spring', duration: 3, delay:2}
                 }}
                  whileHover={{scale: 1.5}}
-                whileTap={{scale: 1.2}}
+                whileTap={{scale: 1.5}}
                 >
                     Skills.
                 </motion.h2>
