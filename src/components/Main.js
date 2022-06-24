@@ -24,12 +24,11 @@ const Container = styled.div`
 padding: 2rem;
 `
 
-const Contact = styled(NavLink)`
-color: ${props => props.theme.text};
+const Cv = styled(NavLink)`
+color: ${props => props.click ? props.theme.body : props.theme.text};
 position: absolute;
 bottom: 50%;
 left: 2rem;
-text-decoration: none;
 z-index:1;
 `
 const BLOG = styled(NavLink)`
@@ -126,7 +125,7 @@ const Main = () => {
                     <span>Click here</span>
             </Center>
             
-            <Contact target="_blank" to={{pathname:"../assets/cv/David_CV.pdf"}}>
+            <Cv to="/cv" click={click}>
             <motion.h2
                 initial={{
                     x:-100,
@@ -141,9 +140,9 @@ const Main = () => {
                 whileTap={{scale: 1.2}}
                 
                 >
-                    Say hi..
-                </motion.h2>
-            </Contact>
+                    CV
+            </motion.h2>
+            </Cv>
         
         <BLOG to="/blog">
                 <motion.h2

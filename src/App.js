@@ -11,6 +11,7 @@ import BlogPage from "./components/BlogPage";
 import MySkillsPage from "./components/MySkillsPage";
 import BlockchainPage from "./components/BlockchainPage";
 import DataSciencePage from "./components/DataSciencePage";
+import Cv from "./components/Cv";
 
 import { AnimatePresence } from "framer-motion";
 import SoundBar from "./subComponents/SoundBar";
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/skills" component={MySkillsPage} />
           <Route exact path="/blockchain" component={BlockchainPage} />
           <Route exact path="/datascience" component={DataSciencePage} />
+          <Route exact path="/cv" component={Cv} />
 
         </Switch>
       </AnimatePresence>
