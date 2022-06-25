@@ -31,7 +31,8 @@ line-height: 2;
 font-family: 'Ubuntu Mono',monospace;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+align-items: center;
+
 `
 //
 const Title = styled.h2`
@@ -52,8 +53,8 @@ margin-right: 1rem;
 const Description = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.6vw);
-padding: 0.7rem 0;
-sstrong{
+padding: 0.3;
+strong{
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
