@@ -13,7 +13,7 @@ import ParticleComponent from '../subComponents/ParticleComponent';
 const Box = styled.div`
 background-color: ${props => props.theme.body};
 width: 100vw;
-height:100vh;
+height: 100vh;
 position: relative;
 display: flex;
 justify-content: space-evenly;
@@ -29,12 +29,10 @@ width: 60vw;
 height: 80vh;
 z-index:0;
 line-height: 2;
-cursor: pointer;
 font-family: 'Ubuntu Mono',monospace;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-
 `
 
 const Title = styled.h2`
@@ -56,7 +54,7 @@ const Description = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.6vw);
 padding: 0.7rem 0;
-strong{
+sstrong{
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
