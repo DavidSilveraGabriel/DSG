@@ -24,7 +24,6 @@ const Main = styled.div`
 border: 0.5px solid ${props => props.theme.text};
 color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
-padding: 2rem;
 width: 60vw;
 height: 80vh;
 z-index:0;
@@ -34,7 +33,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 `
-
+//
 const Title = styled.h2`
 display: flex;
 justify-content: center;
