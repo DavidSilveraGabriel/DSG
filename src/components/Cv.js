@@ -8,7 +8,7 @@ import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
-//import BigTitle from '../subComponents/BigTitlte'
+import BigTitle from '../subComponents/BigTitlte'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -77,7 +77,7 @@ const MySkillsPage = () => {
                     <Title>David Silvera Gabriel</Title>
                 </Main>
 
-                {/*<BigTitle text="Curriculum Vitae" top="70%" right="20%" />*/}
+            <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
 
             </Box>
 
