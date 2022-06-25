@@ -56,11 +56,6 @@ const Description = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.6vw);
 padding: 0.7rem 0;
-${Main}:hover &{
-   
-        color:${props => props.theme.body};
-    
-}
 strong{
     margin-bottom: 1rem;
     text-transform: uppercase;
