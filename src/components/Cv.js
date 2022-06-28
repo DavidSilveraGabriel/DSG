@@ -34,7 +34,6 @@ flex-direction: column;
 align-items: center;
 
 `
-//
 const Title = styled.h2`
 display: flex;
 justify-content: center;
@@ -49,11 +48,18 @@ ${Main}:hover &{
 margin-right: 1rem;
 }
 `
+const Data = styled.div`
+color: ${props => props.theme.text};
+font-size: calc(0.5em + 0.3vw);
+align-items: center;
+justify-content: center;
 
+`
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.6vw);
-padding: 0.3;
+font-size: calc(0.5em + 0.3vw);
+padding: 1;
+margin: 1rem;
 strong{
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -75,9 +81,18 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>David Silvera Gabriel</Title>
-                    <Description>Self-taught Data Scientist with +2 years of experience, worked as a freelancer in the areas of neuroscience, developing an
-end-to-end EEG classifier for move an arduino robot with the mind in just 3 month, also computer vision, creating an app that
-controls the mouse estimating the pose of the head and eyes, and today in education as a tutor of data science</Description>
+                    <Data>
+                        ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
+                    </Data>
+                    <Data>https://www.linkedin.com/in/davidsilveragabriel /
+                        https://github.com/DavidSilveraGabriel</Data>
+                    <Description>
+                        Self-taught Data Scientist with +2 years of experience, 
+                        worked as a freelancer in the areas of neuroscience, developing an
+                        end-to-end EEG classifier for move an arduino robot with the mind in 
+                        just 3 month, also computer vision, creating an app that controls the
+                        mouse estimating the pose of the head and eyes, 
+                        and today in education as a tutor of data science</Description>
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
