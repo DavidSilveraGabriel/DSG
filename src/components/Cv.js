@@ -34,12 +34,7 @@ flex-direction: column;
 align-items: center;
 
 `
-const Title = styled.h1`
-display: inline;
-justify-content: center;
-align-items: center;
-font-size: calc(1em + 1vw);
-`
+
 const Data = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
