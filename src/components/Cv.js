@@ -107,6 +107,7 @@ const MySkillsPage = () => {
                     <SubTitle>Work Experience</SubTitle>
                     <Line />
                     <MiniTitle>Data Scientist Tutor</MiniTitle>
+                    <Line />
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
