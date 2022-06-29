@@ -34,19 +34,11 @@ flex-direction: column;
 align-items: center;
 
 `
-const Title = styled.h2`
-display: flex;
+const Title = styled.h1`
+display: inline;
 justify-content: center;
 align-items: center;
 font-size: calc(0.7em + 1vw);
-${Main}:hover &{
-    &>*{
-        fill:${props => props.theme.body};
-    }
-}
-&>*:first-child{
-margin-right: 1rem;
-}
 `
 const Data = styled.div`
 color: ${props => props.theme.text};
@@ -80,8 +72,8 @@ const MySkillsPage = () => {
                 <PowerButton />
                 <ParticleComponent theme='light' />
                 <Main>
-                    <Title>David Silvera Gabriel</Title>
-                    <h4>Data Scientist</h4>
+                    <h2>David Silvera Gabriel</h2>
+                    <h5>Data Scientist</h5>
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
                     </Data>
