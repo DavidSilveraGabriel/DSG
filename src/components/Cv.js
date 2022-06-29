@@ -77,6 +77,7 @@ const MySkillsPage = () => {
                     <Data>https://www.linkedin.com/in/davidsilveragabriel /
                         https://github.com/DavidSilveraGabriel
                     </Data>
+                    <subTitle>Summary</subTitle>
                     <Summary>
                         Self-taught Data Scientist with +2 years of experience, 
                         worked as a freelancer in the areas of neuroscience, developing an
