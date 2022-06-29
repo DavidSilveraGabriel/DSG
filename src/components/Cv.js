@@ -47,7 +47,7 @@ align-items: center;
 justify-content: center;
 
 `
-const Description = styled.div`
+const Summary = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
 padding: 1;
@@ -78,14 +78,17 @@ const MySkillsPage = () => {
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
                     </Data>
                     <Data>https://www.linkedin.com/in/davidsilveragabriel /
-                        https://github.com/DavidSilveraGabriel</Data>
-                    <Description>
+                        https://github.com/DavidSilveraGabriel
+                    </Data>
+                    <Summary>
                         Self-taught Data Scientist with +2 years of experience, 
                         worked as a freelancer in the areas of neuroscience, developing an
                         end-to-end EEG classifier for move an arduino robot with the mind in 
                         just 3 month, also computer vision, creating an app that controls the
                         mouse estimating the pose of the head and eyes, 
-                        and today in education as a tutor of data science</Description>
+                        and today in education as a tutor of data science
+                    </Summary>
+                    
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
