@@ -29,9 +29,7 @@ height: 80vh;
 z-index:0;
 line-height: 2;
 font-family: 'Ubuntu Mono',monospace;
-display: flex;
-flex-direction: column;
-align-items: center;
+display: inline;
 `
 
 const Data = styled.div`
@@ -55,13 +53,13 @@ ul,p{
 `
 const SubTitle = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.2vw);
+font-size: calc(0.5em + 0.3vw);
 align-items: left;
 justify-content: left;
 `
 const MiniTitle = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.3em + 0.3vw);
+font-size: calc(0.5em + 0.3vw);
 align-items: left;
 justify-content: left;
 `
@@ -76,7 +74,7 @@ const MySkillsPage = () => {
                 <PowerButton />
                 <ParticleComponent theme='light' />
                 <Main>
-                    <h2>David Silvera Gabriel</h2>
+                    <h2>David Silvera Gabriel</h2><br></br>
                     <h5>Data Scientist</h5>
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
