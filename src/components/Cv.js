@@ -29,7 +29,9 @@ height: 80vh;
 z-index:0;
 line-height: 2;
 font-family: 'Ubuntu Mono',monospace;
-display: inline;
+display: flex;
+flex-direction: column;
+align-items: center;
 `
 
 const Data = styled.div`
@@ -74,7 +76,7 @@ const MySkillsPage = () => {
                 <PowerButton />
                 <ParticleComponent theme='light' />
                 <Main>
-                    <h2>David Silvera Gabriel</h2><br></br>
+                    <h2>David Silvera Gabriel</h2>
                     <h5>Data Scientist</h5>
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
