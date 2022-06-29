@@ -103,7 +103,9 @@ const MySkillsPage = () => {
                         and today in education as a tutor of data science
                     </Summary>
                     <SubTitle>Skills</SubTitle>
+                    <Line />
                     <SubTitle>Work Experience</SubTitle>
+                    <Line />
                     <MiniTitle>Data Scientist Tutor</MiniTitle>
                 </Main>
 
