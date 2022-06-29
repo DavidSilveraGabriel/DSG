@@ -85,14 +85,15 @@ const MySkillsPage = () => {
                 <Main>
                     <h2>David Silvera Gabriel</h2>
                     <h5>Data Scientist</h5>
+                    <Line />
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
                     </Data>
-                    <Line />
                     <Data>https://www.linkedin.com/in/davidsilveragabriel /
                         https://github.com/DavidSilveraGabriel
                     </Data>
                     <SubTitle>Summary</SubTitle>
+                    <Line />
                     <Summary>
                         Self-taught Data Scientist with +2 years of experience, 
                         worked as a freelancer in the areas of neuroscience, developing an
