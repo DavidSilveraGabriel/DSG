@@ -32,7 +32,6 @@ font-family: 'Ubuntu Mono',monospace;
 display: flex;
 flex-direction: column;
 align-items: center;
-
 `
 
 const Data = styled.div`
@@ -54,7 +53,11 @@ ul,p{
     margin-left: 2rem;
 }
 `
-
+const subTitle = styled.div`
+color: ${props => props.theme.text};
+font-size: calc(0.5em + 0.3vw);
+align-items: left;
+`
 
 const MySkillsPage = () => {
     return (
