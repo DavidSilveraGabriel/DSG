@@ -86,7 +86,8 @@ const MySkillsPage = () => {
                         mouse estimating the pose of the head and eyes, 
                         and today in education as a tutor of data science
                     </Summary>
-                    
+                    <subTitle>Skills</subTitle>
+                    <subTitle>Work Experience</subTitle>
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
