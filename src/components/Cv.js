@@ -38,7 +38,7 @@ const Title = styled.h2`
 display: flex;
 justify-content: center;
 align-items: center;
-font-size: calc(1em + 1vw);
+font-size: calc(0.7em + 1vw);
 ${Main}:hover &{
     &>*{
         fill:${props => props.theme.body};
@@ -81,6 +81,7 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>David Silvera Gabriel</Title>
+                    <h4>Data Scientist</h4>
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
                     </Data>
