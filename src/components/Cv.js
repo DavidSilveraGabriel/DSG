@@ -57,6 +57,13 @@ const subTitle = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
 align-items: left;
+justify-content: left;
+`
+const miniTitle = styled.div`
+color: ${props => props.theme.text};
+font-size: calc(0.3em + 0.3vw);
+align-items: left;
+justify-content: left;
 `
 
 const MySkillsPage = () => {
