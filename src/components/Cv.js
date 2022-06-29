@@ -53,6 +53,13 @@ ul,p{
     margin-left: 2rem;
 }
 `
+const Line = styled.div`
+border: 0.5px solid ${props => props.theme.text};
+color: ${props => props.theme.text};
+background-color: ${props => props.theme.body};
+width: 60vw;
+height: 0vh;
+`
 const SubTitle = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
@@ -81,6 +88,7 @@ const MySkillsPage = () => {
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
                     </Data>
+                    <Line />
                     <Data>https://www.linkedin.com/in/davidsilveragabriel /
                         https://github.com/DavidSilveraGabriel
                     </Data>
