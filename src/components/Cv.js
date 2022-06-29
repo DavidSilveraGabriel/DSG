@@ -53,13 +53,13 @@ ul,p{
     margin-left: 2rem;
 }
 `
-const subTitle = styled.div`
+const SubTitle = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.3vw);
+font-size: calc(0.5em + 0.2vw);
 align-items: left;
 justify-content: left;
 `
-const miniTitle = styled.div`
+const MiniTitle = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.3em + 0.3vw);
 align-items: left;
@@ -84,7 +84,7 @@ const MySkillsPage = () => {
                     <Data>https://www.linkedin.com/in/davidsilveragabriel /
                         https://github.com/DavidSilveraGabriel
                     </Data>
-                    <subTitle>Summary</subTitle>
+                    <SubTitle>Summary</SubTitle>
                     <Summary>
                         Self-taught Data Scientist with +2 years of experience, 
                         worked as a freelancer in the areas of neuroscience, developing an
@@ -93,8 +93,9 @@ const MySkillsPage = () => {
                         mouse estimating the pose of the head and eyes, 
                         and today in education as a tutor of data science
                     </Summary>
-                    <subTitle>Skills</subTitle>
-                    <subTitle>Work Experience</subTitle>
+                    <SubTitle>Skills</SubTitle>
+                    <SubTitle>Work Experience</SubTitle>
+                    <MiniTitle>Data Scientist Tutor</MiniTitle>
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
