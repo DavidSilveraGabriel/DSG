@@ -44,13 +44,11 @@ const Summary = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
 margin: 1rem;
-strong{
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-}
-ul,p{
-    margin-left: 2rem;
-}
+`
+const Description = styled.div`
+color: ${props => props.theme.text};
+font-size: calc(0.5em + 0.3vw);
+margin: 1rem;
 `
 const Line = styled.div`
 border: 1px dashed #000;
@@ -59,15 +57,13 @@ margin: 1px;
 color: ${props => props.theme.text};
 width: 60vw;
 `
-const SubTitle = styled.div`
+const SubTitle = styled.h4`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.3vw);
 align-items: left;
 justify-content: left;
 `
-const MiniTitle = styled.div`
+const MiniTitle = styled.h5`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.3vw);
 align-items: left;
 justify-content: left;
 `
@@ -75,7 +71,7 @@ justify-content: left;
 const MySkillsPage = () => {
     return (
         <ThemeProvider theme={LightTheme}>
-            <Box>
+            {/*<Box>*/}
 
                 <LogoComponent theme='light'/>
                 <SocialIcons theme='light'/>
@@ -103,15 +99,30 @@ const MySkillsPage = () => {
                     </Summary>
                     <SubTitle>Skills</SubTitle>
                     <Line />
+                    Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision
                     <SubTitle>Work Experience</SubTitle>
                     <Line />
                     <MiniTitle>Data Scientist Tutor</MiniTitle>
+                    <Description>
+                    CoderHouse • Freelance
+                    Remote
+                    Technologies: Python • Machine learning • Pandas • Numpy • Data Science
+                    In charge of monitoring +50 students, correcting challenges, deliverables and final projects, too i'm
+                    responsible for teaching complementary classes with reviews of 4.9/5
+                    </Description>
+                    <MiniTitle>Data Scientist Freelance</MiniTitle>
+                    <Description>Fiverr • Freelance
+                    Remote
+                    Technologies: Python • Machine learning • Data Science • Numpy • Matplotlib
+                    Freelance Data Scientist, work on fiverr platform with 9 successfully completed jobs as data scientist, fully
+                    satisfied customers, rating. my profile:  https://www.fiverr.com/davidsilverag
+                    </Description>
                     <Line />
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
 
-            </Box>
+            {/*</Box>*/}
 
         </ThemeProvider>
         
