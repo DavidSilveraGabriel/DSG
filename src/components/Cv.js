@@ -13,7 +13,7 @@ import BigTitle from '../subComponents/BigTitlte'
 const Box = styled.div`
 background-color: ${props => props.theme.body};
 width: 100vw;
-height: 100vh;
+height:auto;
 position: relative;
 display: flex;
 justify-content: space-evenly;
@@ -25,7 +25,7 @@ border: 0.5px solid ${props => props.theme.text};
 color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 width: 60vw;
-height: 80vh;
+height:auto;
 z-index:0;
 line-height: 2;
 font-family: 'Ubuntu Mono',monospace;
@@ -71,7 +71,7 @@ justify-content: left;
 const MySkillsPage = () => {
     return (
         <ThemeProvider theme={LightTheme}>
-            {/*<Box>*/}
+            <Box>
 
                 <LogoComponent theme='light'/>
                 <SocialIcons theme='light'/>
@@ -122,7 +122,7 @@ const MySkillsPage = () => {
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
 
-            {/*</Box>*/}
+            </Box>
 
         </ThemeProvider>
         
