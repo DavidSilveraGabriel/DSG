@@ -133,6 +133,11 @@ const MySkillsPage = () => {
                         pointer by the direction of eyes. This app takes video as input and then app estimates eye-direction and
                         head-pose and based on that estimation it move the mouse pointer.
                     </Description>
+                    <SubTitle>Education</SubTitle>
+                    <MiniTitle>Nanodegree: Intel® Edge AI for IoT Developers Nanodegree</MiniTitle>
+                    <Description></Description>
+                    <MiniTitle>Plan 111 mil Programadores</MiniTitle>
+                    <Description></Description>
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
