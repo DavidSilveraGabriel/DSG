@@ -135,9 +135,20 @@ const MySkillsPage = () => {
                     </Description>
                     <SubTitle>Education</SubTitle>
                     <MiniTitle>Nanodegree: Intel® Edge AI for IoT Developers Nanodegree</MiniTitle>
-                    <Description></Description>
+                    <Description>I've worked in the development of cutting-edge Edge AI applications for the future of the Internet of
+                        Things. I've Used the Intel® Distribution of OpenVINO™ Toolkit to fast-track 
+                        development of high-performance computer vision & 
+                        deep learning inference applications.
+                    </Description>
                     <MiniTitle>Plan 111 mil Programadores</MiniTitle>
-                    <Description></Description>
+                    <Description>Villa Mercedes, Argentina
+                        Trained to develop and interpret UML, with a solid foundation in Java programming and knowledge
+                        advanced in the query language par excellence SQL
+                    </Description>
+                    <SubTitle>Languages</SubTitle>
+                    <Line />
+                    * Spanish Native
+                    * English Conversational 
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
