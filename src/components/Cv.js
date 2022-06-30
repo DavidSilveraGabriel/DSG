@@ -58,9 +58,7 @@ border: 1px dashed #000;
 width: 30%;
 margin: auto;
 color: ${props => props.theme.text};
-background-color: ${props => props.theme.body};
 width: 60vw;
-height: 0vh;
 `
 const SubTitle = styled.div`
 color: ${props => props.theme.text};
