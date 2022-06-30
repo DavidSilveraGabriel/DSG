@@ -99,25 +99,40 @@ const MySkillsPage = () => {
                     </Summary>
                     <SubTitle>Skills</SubTitle>
                     <Line />
-                    Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision
+                        Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision
                     <SubTitle>Work Experience</SubTitle>
                     <Line />
                     <MiniTitle>Data Scientist Tutor</MiniTitle>
                     <Description>
-                    CoderHouse • Freelance
-                    Remote
-                    Technologies: Python • Machine learning • Pandas • Numpy • Data Science
-                    In charge of monitoring +50 students, correcting challenges, deliverables and final projects, too i'm
-                    responsible for teaching complementary classes with reviews of 4.9/5
+                        CoderHouse • Freelance
+                        Remote
+                        Technologies: Python • Machine learning • Pandas • Numpy • Data Science
+                        In charge of monitoring +50 students, correcting challenges, deliverables and final projects, too i'm
+                        responsible for teaching complementary classes with reviews of 4.9/5
                     </Description>
                     <MiniTitle>Data Scientist Freelance</MiniTitle>
                     <Description>Fiverr • Freelance
-                    Remote
-                    Technologies: Python • Machine learning • Data Science • Numpy • Matplotlib
-                    Freelance Data Scientist, work on fiverr platform with 9 successfully completed jobs as data scientist, fully
-                    satisfied customers, rating. my profile:  https://www.fiverr.com/davidsilverag
+                        Remote
+                        Technologies: Python • Machine learning • Data Science • Numpy • Matplotlib
+                        Freelance Data Scientist, work on fiverr platform with 9 successfully completed jobs as data scientist, fully
+                        satisfied customers, rating. my profile:  https://www.fiverr.com/davidsilverag
                     </Description>
                     <Line />
+                    <SubTitle>Projects</SubTitle>
+                    <Line />
+                    <MiniTitle>EEG classifier</MiniTitle>
+                    <Description>Technologies: Python • Numpy • Mne • Braindecode • Artificial intelligence
+                        In this mini project i use the libraries mne and braindecode to analyze and classify public domain EEG(ML)
+                        signals provided by physionet.org here the paper from braindecode where is studied deep ConvNets
+                        with a range of different architectures, designed for decoding imagined or executed movements from
+                        raw EEG
+                    </Description>
+                    <MiniTitle>Computer pointer controller</MiniTitle>
+                    <Description>Technologies: Python • Opencv • Numpy • Computer vision
+                        Computer Pointer Controller app estimate pose of head and is used to controll the movement of mouse
+                        pointer by the direction of eyes. This app takes video as input and then app estimates eye-direction and
+                        head-pose and based on that estimation it move the mouse pointer.
+                    </Description>
                 </Main>
 
             <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
