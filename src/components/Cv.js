@@ -43,7 +43,6 @@ justify-content: center;
 const Summary = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
-padding: 1;
 margin: 1rem;
 strong{
     margin-bottom: 1rem;
@@ -56,7 +55,7 @@ ul,p{
 const Line = styled.div`
 border: 1px dashed #000;
 width: 30%;
-margin: auto;
+margin: 1px;
 color: ${props => props.theme.text};
 width: 60vw;
 `
