@@ -81,7 +81,7 @@ const MySkillsPage = () => {
                 <Main>
                     <h2>David Silvera Gabriel</h2>
                     <h5>Data Scientist</h5>
-                    <Line />
+                    
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
                     </Data>
@@ -89,7 +89,7 @@ const MySkillsPage = () => {
                         https://github.com/DavidSilveraGabriel
                     </Data>
                     <SubTitle>Summary</SubTitle>
-                    <Line />
+                    
                     <Summary>
                         Self-taught Data Scientist with +2 years of experience, 
                         worked as a freelancer in the areas of neuroscience, developing an
@@ -99,11 +99,11 @@ const MySkillsPage = () => {
                         and today in education as a tutor of data science
                     </Summary>
                     <SubTitle>Skills</SubTitle>
-                    <Line />
+                    
                         Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision
-                    <Line />
+                    
                     <SubTitle>Work Experience</SubTitle>
-                    <Line />
+                    
                     <MiniTitle>Data Scientist Tutor</MiniTitle>
                     <Description>
                         CoderHouse • Freelance
@@ -119,9 +119,9 @@ const MySkillsPage = () => {
                         Freelance Data Scientist, work on fiverr platform with 9 successfully completed jobs as data scientist, fully
                         satisfied customers, rating. my profile:  https://www.fiverr.com/davidsilverag
                     </Description>
-                    <Line />
+                    
                     <SubTitle>Projects</SubTitle>
-                    <Line />
+                    
                     <MiniTitle>EEG classifier</MiniTitle>
                     <Description>Technologies: Python • Numpy • Mne • Braindecode • Artificial intelligence
                         In this mini project i use the libraries mne and braindecode to analyze and classify public domain EEG(ML)
@@ -135,9 +135,9 @@ const MySkillsPage = () => {
                         pointer by the direction of eyes. This app takes video as input and then app estimates eye-direction and
                         head-pose and based on that estimation it move the mouse pointer.
                     </Description>
-                    <Line />
+                    
                     <SubTitle>Education</SubTitle>
-                    <Line />
+                    
                     <MiniTitle>Nanodegree: Intel® Edge AI for IoT Developers Nanodegree</MiniTitle>
                     <Description>I've worked in the development of cutting-edge Edge AI applications for the future of the Internet of
                         Things. I've Used the Intel® Distribution of OpenVINO™ Toolkit to fast-track 
@@ -149,9 +149,9 @@ const MySkillsPage = () => {
                         Trained to develop and interpret UML, with a solid foundation in Java programming and knowledge
                         advanced in the query language par excellence SQL
                     </Description>
-                    <Line />
+                    
                     <SubTitle>Languages</SubTitle>
-                    <Line />
+                    
                     * Spanish Native
                     * English Conversational 
                 </Main>
