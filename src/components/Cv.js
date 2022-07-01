@@ -100,6 +100,7 @@ const MySkillsPage = () => {
                     <SubTitle>Skills</SubTitle>
                     <Line />
                         Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision
+                    <Line />
                     <SubTitle>Work Experience</SubTitle>
                     <Line />
                     <MiniTitle>Data Scientist Tutor</MiniTitle>
@@ -147,6 +148,7 @@ const MySkillsPage = () => {
                         Trained to develop and interpret UML, with a solid foundation in Java programming and knowledge
                         advanced in the query language par excellence SQL
                     </Description>
+                    <Line />
                     <SubTitle>Languages</SubTitle>
                     <Line />
                     * Spanish Native
