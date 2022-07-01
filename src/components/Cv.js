@@ -21,7 +21,8 @@ align-items: center;
 `
 
 const Main = styled.div`
-border: 0.5px solid ${props => props.theme.text};
+border: 2px solid ${props => props.theme.text};
+margin-top: 50px;
 color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 width: 60vw;
