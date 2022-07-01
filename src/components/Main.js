@@ -116,7 +116,7 @@ const Main = () => {
         <MainContainer>
         <DarkDiv click={click} />
             <Container>
-            <PowerButton />
+            {/*<PowerButton />*/}
             <LogoComponent theme={click ? 'dark' : 'light'}/>
             <SocialIcons theme={click ? 'dark' : 'light'}/>
             

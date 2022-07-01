@@ -104,7 +104,7 @@ const MySkillsPage = () => {
 
                 <LogoComponent theme='light'/>
                 <SocialIcons theme='light'/>
-                <PowerButton />
+                {/*<PowerButton />*/}
                 <ParticleComponent theme='light' />
                 <Main>
                     <BLOCKCHAIN to="/blockchain">
