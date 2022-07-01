@@ -133,7 +133,9 @@ const MySkillsPage = () => {
                         pointer by the direction of eyes. This app takes video as input and then app estimates eye-direction and
                         head-pose and based on that estimation it move the mouse pointer.
                     </Description>
+                    <Line />
                     <SubTitle>Education</SubTitle>
+                    <Line />
                     <MiniTitle>Nanodegree: Intel® Edge AI for IoT Developers Nanodegree</MiniTitle>
                     <Description>I've worked in the development of cutting-edge Edge AI applications for the future of the Internet of
                         Things. I've Used the Intel® Distribution of OpenVINO™ Toolkit to fast-track 
