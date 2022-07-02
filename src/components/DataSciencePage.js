@@ -1,6 +1,5 @@
 import react from 'react'
 import styled from "styled-components";
-import PowerButton from "../subComponents/PowerButton";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import {Blogs} from "../data/DataScienceData";
@@ -61,7 +60,6 @@ const BlogPage = () => {
         >
             <Container>
                 <LogoComponent />
-                {/*<PowerButton />*/}
                 <SocialIcons />
                 <Center>
                     <Grid>
