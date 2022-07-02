@@ -85,7 +85,6 @@ const AboutPage = () => {
 
             <LogoComponent theme='dark'/>
             <SocialIcons theme='dark'/>
-            {/*<PowerButton />*/}
             <ParticleComponent theme='dark' />
 
             <Saitama>
