@@ -7,7 +7,6 @@ import { NavLink } from "react-router-dom";
 
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
-import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
 
@@ -104,7 +103,6 @@ const MySkillsPage = () => {
 
                 <LogoComponent theme='light'/>
                 <SocialIcons theme='light'/>
-                {/*<PowerButton />*/}
                 <ParticleComponent theme='light' />
                 <Main>
                     <BLOCKCHAIN to="/blockchain">

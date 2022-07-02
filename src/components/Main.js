@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import react, { useState }from "react"; 
 import styled, {keyframes} from "styled-components";
-import PowerButton from "../subComponents/PowerButton.js";
 import LogoComponent from "../subComponents/LogoComponent.js";
 import SocialIcons from "../subComponents/SocialIcons.js";
 import { NavLink } from "react-router-dom";
@@ -116,7 +115,6 @@ const Main = () => {
         <MainContainer>
         <DarkDiv click={click} />
             <Container>
-            {/*<PowerButton />*/}
             <LogoComponent theme={click ? 'dark' : 'light'}/>
             <SocialIcons theme={click ? 'dark' : 'light'}/>
             
