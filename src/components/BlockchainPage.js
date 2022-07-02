@@ -60,7 +60,6 @@ const BlogPage = () => {
         >
             <Container>
                 <LogoComponent />
-                {/*<PowerButton />*/}
                 <SocialIcons />
                 <Center>
                     <Grid>
