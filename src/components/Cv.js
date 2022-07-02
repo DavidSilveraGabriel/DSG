@@ -76,7 +76,6 @@ const MySkillsPage = () => {
 
                 <LogoComponent theme='light'/>
                 <SocialIcons theme='light'/>
-                {/*<PowerButton />*/}
                 <ParticleComponent theme='light' />
                 <Main>
                     <h2>David Silvera Gabriel</h2>
