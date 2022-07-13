@@ -137,7 +137,7 @@ const MySkillsPage = () => {
                             <BsClipboardData width={30} height={30} /> Data Scientist
                         </Title>
                         <Description>
-                            I seek to generate value for companies by making data driven decision
+                            Turns raw data into valuable insights that an organisation needs in order to grow and compete
                         </Description>
                         <Description>
                             <strong>Skills</strong>
