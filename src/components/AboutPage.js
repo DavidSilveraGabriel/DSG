@@ -140,7 +140,7 @@ const AboutPage = () => {
                  whileHover={{scale: 1.5}}
                 whileTap={{scale: 1.5}}
                 >
-                    Skills.
+                    Works
                 </motion.h2>
                 </SKILLS>
             </BottomBar>

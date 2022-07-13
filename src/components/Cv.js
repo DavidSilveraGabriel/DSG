@@ -15,7 +15,7 @@ width: 100vw;
 height:auto;
 position: relative;
 display: flex;
-justify-content: space-evenly;
+justify-content: center;
 align-items: center;
 `
 

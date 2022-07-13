@@ -190,7 +190,7 @@ const Main = () => {
                  whileHover={{scale: 1.5}}
                 whileTap={{scale: 1.2}}
                 >
-                    Skills.
+                    Works
                 </motion.h2>
                 </SKILLS>
             </BottomBar>

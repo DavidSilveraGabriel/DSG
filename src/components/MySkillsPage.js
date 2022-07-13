@@ -154,7 +154,7 @@ const MySkillsPage = () => {
                     </DATASCIENCE>
                 </Main>
 
-                <BigTitle text="SKILLS" top="80%" right="30%" />
+                <BigTitle text="WORKS" top="80%" right="30%" />
 
             </Box>
 
