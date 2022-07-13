@@ -10,7 +10,7 @@ const Box = styled(motion.div)`
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-
+    font-family: 'Hanalei Fill';
     width: 65vw;
     height: 55vh;
     display: flex;
