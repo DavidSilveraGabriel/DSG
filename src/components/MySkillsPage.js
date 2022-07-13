@@ -137,7 +137,8 @@ const MySkillsPage = () => {
                             <BsClipboardData width={30} height={30} /> Data Scientist
                         </Title>
                         <Description>
-                            Turns raw data into valuable insights that an organisation needs in order to grow and compete
+                            Turns raw data into valuable insights that an organisation 
+                            needs in order to grow and compete
                         </Description>
                         <Description>
                             <strong>Skills</strong>
