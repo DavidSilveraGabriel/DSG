@@ -18,7 +18,11 @@ display: flex;
 flex-direction: column;
 z-index: 5;
 
-
+&:hover{
+    color: ${props => props.theme.body};
+    background-color: ${props => props.theme.text};
+    transition: all 0.3s ease;
+}
 `
 
 const Image= styled.div`
