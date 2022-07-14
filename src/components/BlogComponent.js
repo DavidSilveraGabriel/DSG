@@ -38,7 +38,7 @@ background-position: center center;
 }
 `
 const Title = styled.h3`
-color: inherit;
+
 padding: 0.5rem 0;
 padding-top: 1rem;
 font-family:'Hanalei Fill','Karla', sans-serif;
