@@ -18,11 +18,7 @@ display: flex;
 flex-direction: column;
 z-index: 5;
 
-&:hover{
-    color: ${props => props.theme.body};
-    background-color: ${props => props.theme.text};
-    transition: all 0.3s ease;
-}
+
 `
 
 const Image= styled.div`
@@ -38,7 +34,7 @@ background-position: center center;
 }
 `
 const Title = styled.h3`
-
+color: inherit;
 padding: 0.5rem 0;
 padding-top: 1rem;
 font-family:'Hanalei Fill','Karla', sans-serif;
