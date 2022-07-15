@@ -116,11 +116,11 @@ const AboutPage = () => {
                 <motion.h2
                 initial={{
                     y:200,
-                    transition: { type:'spring', duration: 3, delay:2}
+                    transition: { type:'spring', duration: 2, delay:1}
                 }}
                 animate={{
                     y:0,
-                    transition: { type:'spring', duration: 3, delay:2}
+                    transition: { type:'spring', duration: 2, delay:1}
                 }}
                 whileHover={{scale: 1.5}}
                 whileTap={{scale: 1.5}}
@@ -132,11 +132,11 @@ const AboutPage = () => {
                 <motion.h2
                 initial={{
                     y:200,
-                    transition: { type:'spring', duration: 3, delay:2}
+                    transition: { type:'spring', duration: 2, delay:1}
                 }}
                 animate={{
                     y:0,
-                    transition: { type:'spring', duration: 3, delay:2}
+                    transition: { type:'spring', duration: 2, delay:1}
                 }}
                  whileHover={{scale: 1.5}}
                 whileTap={{scale: 1.5}}
