@@ -6,7 +6,10 @@ import { NavLink } from 'react-router-dom'
 const Logo = styled.h1`
 display: inline-block;
 color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
-font-family: 'Pacifico', cursive;
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Krub', sans-serif;
+font-family: 'Roboto Mono', monospace;
 
 position: fixed;
 left: 3rem;
