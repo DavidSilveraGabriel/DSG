@@ -24,6 +24,21 @@ export const Blogs = [
         imgSrc:"https://miro.medium.com/max/945/1*DYFK5voaJ4o5Uz99NvVX-g.jpeg",
         link:"https://medium.com/@ibexorigin/6-sklearn-mistakes-that-silently-tell-you-are-rookie-f1fe44779a4d"
     },
-
+    {
+        id:4,
+        name:"6 Sklearn Mistakes That Silently Tell You Are Rookie",
+        tags:["Sklearn","MachineLearning","DataScience"],
+        date:"8 Apr, 2022",
+        imgSrc:"https://miro.medium.com/max/945/1*DYFK5voaJ4o5Uz99NvVX-g.jpeg",
+        link:"https://medium.com/@ibexorigin/6-sklearn-mistakes-that-silently-tell-you-are-rookie-f1fe44779a4d"
+    },
+    {
+        id:5,
+        name:"My Amazon Data Scientist Interview Questions — and Answers!",
+        tags:["Sklearn","MachineLearning","DataScience"],
+        date:"11 May, 2022",
+        imgSrc:"https://miro.medium.com/max/1400/1*B8GeWaY96cNbr-97kCac9w.jpeg",
+        link:"https://pub.towardsai.net/my-amazon-data-scientist-interview-questions-and-answers-9220bd9d01e9"
+    },
     
 ] 
