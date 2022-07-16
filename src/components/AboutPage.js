@@ -64,6 +64,13 @@ width: 100%;
 display: flex;
 justify-content: space-evenly;
 `
+const Cv = styled(NavLink)`
+color: ${props => props.click ? props.theme.body : props.theme.text};
+position: absolute;
+bottom: 50%;
+left: 2rem;
+z-index:1;
+`
 const SKILLS = styled(NavLink)`
 color: ${props => props.theme.text};
 text-decoration: none;
@@ -110,7 +117,24 @@ const AboutPage = () => {
 
 
         </Box>
-        
+        <Cv to="/cv">
+            <motion.h2
+                initial={{
+                    x:-100,
+                    transition: { type:'spring', duration: 2, delay:1}
+                }}
+                animate={{
+                    y:0,
+                    x:0,
+                    transition: { type:'spring', duration: 2, delay:1}
+                }}
+                whileHover={{scale: 1.5}}
+                whileTap={{scale: 1.2}}
+                
+                >
+                    CV
+            </motion.h2>
+            </Cv>
             <BottomBar>
             <BLOG to="/blog">
                 <motion.h2
