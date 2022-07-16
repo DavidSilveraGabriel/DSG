@@ -26,11 +26,11 @@ export const Blogs = [
     },
     {
         id:4,
-        name:"6 Sklearn Mistakes That Silently Tell You Are Rookie",
-        tags:["Sklearn","MachineLearning","DataScience"],
-        date:"8 Apr, 2022",
-        imgSrc:"https://miro.medium.com/max/945/1*DYFK5voaJ4o5Uz99NvVX-g.jpeg",
-        link:"https://medium.com/@ibexorigin/6-sklearn-mistakes-that-silently-tell-you-are-rookie-f1fe44779a4d"
+        name:"Difference Between Data Science and Software Engineering",
+        tags:["SoftwareEngineering","DataScience"],
+        date:"22 May, 2020",
+        imgSrc:"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200522224034/Data-Science-vs-Software-Engineering.png",
+        link:"https://www.geeksforgeeks.org/difference-between-data-science-and-software-engineering/"
     },
     {
         id:5,
