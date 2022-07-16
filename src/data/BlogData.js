@@ -2,11 +2,11 @@
 export const Blogs = [
     {
         id:1,
-        name:"Build Website with ReactJS, Styled-components and GSAP for Scrolling Animations",
-        tags:["react","gsap","styled-components"],
-        date:"13 May, 2021",
-        imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link:"github_copilot.md"
+        name:"How to Structure a Data Science Project for Readability and Transparency",
+        tags:["DataScience","Organization"],
+        date:"7 Apr, 2022",
+        imgSrc:"https://miro.medium.com/max/494/1*06aeJgtJ4c4mUQOG3qIbCw.png",
+        link:"https://medium.com/towards-data-science/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800"
     },
     {
         id:2,
