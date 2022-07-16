@@ -35,7 +35,7 @@ export const Blogs = [
     {
         id:5,
         name:"My Amazon Data Scientist Interview Questions — and Answers!",
-        tags:["Sklearn","MachineLearning","DataScience"],
+        tags:["Interview","Amazon","DataScience"],
         date:"11 May, 2022",
         imgSrc:"https://miro.medium.com/max/1400/1*B8GeWaY96cNbr-97kCac9w.jpeg",
         link:"https://pub.towardsai.net/my-amazon-data-scientist-interview-questions-and-answers-9220bd9d01e9"
