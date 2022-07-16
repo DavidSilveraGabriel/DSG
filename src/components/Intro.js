@@ -39,7 +39,6 @@ const SubBox = styled.div`
 width: 50%;
 position: relative;
 display: flex;
-
 .pic{
     position: absolute;
     bottom: 0;
