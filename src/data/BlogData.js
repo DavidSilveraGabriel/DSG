@@ -32,12 +32,5 @@ export const Blogs = [
         imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
         link:"https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
     },
-    {
-        id:5,
-        name:"What is Higher Order Component (HOC) in React JS?",
-        tags:["react","reactJS","web-development"],
-        date:"3 Feb, 2021",
-        imgSrc:"https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link:"https://codebucks.hashnode.dev/what-is-higher-order-component"
-    }
+    
 ] 
