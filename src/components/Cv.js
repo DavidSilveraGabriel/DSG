@@ -49,13 +49,7 @@ color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
 margin: 1rem;
 `
-const Line = styled.div`
-border: 1px dashed #000;
-width: 30%;
-margin: 1px;
-color: ${props => props.theme.text};
-width: 60vw;
-`
+
 const SubTitle = styled.h4`
 color: ${props => props.theme.text};
 align-items: left;
