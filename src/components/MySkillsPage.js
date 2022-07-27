@@ -138,7 +138,8 @@ const MySkillsPage = () => {
                         </Title>
                         <Description>
                             Turns raw data into valuable insights that an organisation 
-                            needs in order to grow and compete
+                            needs in order to grow and compete, use Machine Learning algorithms 
+                            for get predictions that 
                         </Description>
                         <Description>
                             <strong>Skills</strong>
