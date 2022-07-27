@@ -118,7 +118,7 @@ const MySkillsPage = () => {
                             <ul>
                                 <li>
                                 Work with the Terminal Product and Engineering 
-                                team to build the world’s easiest to use Web3 developer platform.
+                                team to build the world’s easiest to use Web3 apps.
                                 </li>
                                 <li>
                                 Implement front edge user experience designs bridging complex 
@@ -128,7 +128,7 @@ const MySkillsPage = () => {
                         </Description>
                         
                         
-                        <p>[####-----------------------------10%] in progress, be patient</p>
+                        <p>[###------------------------------9%] in progress, be patient</p>
                     </BLOCKCHAIN>
                 </Main>
                 <Main>
@@ -149,7 +149,7 @@ const MySkillsPage = () => {
                         <Description>
                             <strong>Tools</strong>
                             <p>
-                            VScode, Github, Colab, Anaconda, Jupyter Notebook.
+                                VScode, Github, Colab, Anaconda, Jupyter Notebook.
                             </p>
                         </Description>
                     </DATASCIENCE>
