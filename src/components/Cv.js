@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import {LightTheme} from './Themes';
-import { NavLink } from "react-router-dom";
 
 
 import LogoComponent from '../subComponents/LogoComponent';
