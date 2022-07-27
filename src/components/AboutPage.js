@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
-import ParticleComponent from '../subComponents/ParticleComponent';
+//import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
 import saitama from '../assets/Images/saitama-white.png'
 
@@ -91,7 +91,7 @@ const AboutPage = () => {
 
             <LogoComponent theme='dark'/>
             <SocialIcons theme='dark'/>
-            <ParticleComponent theme='dark' />
+            {/*<ParticleComponent theme='dark' />*/}
 
             <Saitama>
                 <a href='https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/97465292781721571611177930354272544023530438298057205090993582575477309046785' target="_blank" rel="noreferrer">

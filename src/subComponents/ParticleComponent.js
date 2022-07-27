@@ -1,4 +1,4 @@
-import React from 'react'
+{/*import React from 'react'
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
 
@@ -27,4 +27,4 @@ const ParticleComponent = (props) => {
     )
 }
 
-export default ParticleComponent
+export default ParticleComponent*/}

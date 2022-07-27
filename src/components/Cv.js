@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
-import ParticleComponent from '../subComponents/ParticleComponent';
+//import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
 
 const Box = styled.div`
@@ -75,7 +75,7 @@ const MySkillsPage = () => {
 
                 <LogoComponent theme='light'/>
                 <SocialIcons theme='light'/>
-                <ParticleComponent theme='light' />
+                {/*<ParticleComponent theme='light' />*/}
                 <Main>
                     <h2>David Silvera Gabriel</h2>
                     <h5>Data Scientist</h5>
