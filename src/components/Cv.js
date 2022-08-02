@@ -27,7 +27,7 @@ width: 60vw;
 height:auto;
 z-index:0;
 line-height: 2;
-font-family: 'Ubuntu Mono',monospace;
+font-family: Serif;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -41,21 +41,21 @@ justify-content: center;
 `
 const Summary = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.3vw);
+font-size: calc(0.7em + 0.3vw);
 margin: 1rem;
 `
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.3vw);
+font-size: calc(0.7em + 0.3vw);
 margin: 1rem;
 `
 
-const SubTitle = styled.h4`
+const SubTitle = styled.h3`
 color: ${props => props.theme.text};
 align-items: left;
 justify-content: left;
 `
-const MiniTitle = styled.h5`
+const MiniTitle = styled.h4`
 color: ${props => props.theme.text};
 align-items: left;
 justify-content: left;
@@ -71,7 +71,7 @@ const MySkillsPage = () => {
                 {/*<ParticleComponent theme='light' />*/}
                 <Main>
                     <h2>David Silvera Gabriel</h2>
-                    <h5>Data Scientist</h5>
+                    <SubTitle>Data Scientist</SubTitle>
                     
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
@@ -90,38 +90,30 @@ const MySkillsPage = () => {
                         and today in education as a tutor of data science
                     </Summary>
                     <SubTitle>Skills</SubTitle>
-                    
-                        Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision
-                    
+                    • Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision • Scikit-Learn
                     <SubTitle>Work Experience</SubTitle>
-                    
-                    <MiniTitle>Data Scientist Tutor</MiniTitle>
+                    <MiniTitle>Data Scientist Tutor at CoderHouse</MiniTitle>
                     <Description>
-                        CoderHouse • Freelance
-                        Remote
-                        Technologies: Python • Machine learning • Pandas • Numpy • Data Science
-                        In charge of monitoring +50 students, correcting challenges, deliverables and final projects, too i'm
-                        responsible for teaching complementary classes with reviews of 4.9/5
+                        3 successfully completed commissions, In charge of monitoring +50 students, correcting challenges, deliverables and final projects, too i'm
+                        responsible for teaching complementary classes with average reviews of 4.9/5
                     </Description>
-                    <MiniTitle>Data Scientist Freelance</MiniTitle>
-                    <Description>Fiverr • Freelance
-                        Remote
-                        Technologies: Python • Machine learning • Data Science • Numpy • Matplotlib
-                        Freelance Data Scientist, work on fiverr platform with 9 successfully completed jobs as data scientist, fully
-                        satisfied customers, rating. my profile:  https://www.fiverr.com/davidsilverag
+                    <MiniTitle>Data Scientist Freelance at Fiverr</MiniTitle>
+                    <Description>
+                        Freelance Data Scientist, work on fiverr platform, with 9 successfully completed jobs as data scientist, fully
+                        satisfied customers five stars rating. my profile:  https://www.fiverr.com/davidsilverag
                     </Description>
                     
                     <SubTitle>Projects</SubTitle>
                     
                     <MiniTitle>EEG classifier</MiniTitle>
-                    <Description>Technologies: Python • Numpy • Mne • Braindecode • Artificial intelligence
+                    <Description>
                         In this mini project i use the libraries mne and braindecode to analyze and classify public domain EEG(ML)
                         signals provided by physionet.org here the paper from braindecode where is studied deep ConvNets
                         with a range of different architectures, designed for decoding imagined or executed movements from
                         raw EEG
                     </Description>
                     <MiniTitle>Computer pointer controller</MiniTitle>
-                    <Description>Technologies: Python • Opencv • Numpy • Computer vision
+                    <Description>
                         Computer Pointer Controller app estimate pose of head and is used to controll the movement of mouse
                         pointer by the direction of eyes. This app takes video as input and then app estimates eye-direction and
                         head-pose and based on that estimation it move the mouse pointer.
