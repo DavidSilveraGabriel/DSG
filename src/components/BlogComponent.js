@@ -41,7 +41,7 @@ const Title = styled.h3`
 color: inherit;
 padding: 0.5rem 0;
 padding-top: 1rem;
-font-family:'Hanalei Fill','Karla', sans-serif;
+ont-family: Serif, Karla ,sans-serif ;
 font-weight: 700;
 border-bottom: 1px solid ${props => props.theme.text};
 
@@ -50,7 +50,7 @@ border-bottom: 1px solid ${props => props.theme.text};
 }
 `
 
-const HashTags = styled.div`
+const Description = styled.div`
 padding: 0.5rem 0;
 
 `
@@ -86,14 +86,14 @@ const BlogComponent = (props) => {
         <Box target="_blank" to={{pathname: link}}>
             <Image img={imgSrc} />
             <Title>{name}</Title>
-            <HashTags>
+            <Description>
                 {
                     tags.map((t,id) => {
                         return <Tag key={id}>#{t}</Tag>
                         
                     })
                 }
-            </HashTags>
+            </Description>
             <Date>{date}</Date>
             
         </Box>

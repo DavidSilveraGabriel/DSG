@@ -50,7 +50,7 @@ font-size: calc(0.7em + 0.3vw);
 margin: 1rem;
 `
 
-const SubTitle = styled.h3`
+const SubTitle = styled.h2`
 color: ${props => props.theme.text};
 align-items: left;
 justify-content: left;
