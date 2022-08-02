@@ -30,7 +30,7 @@ height: 60vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
-font-family: 'Hanalei Fill',monospace;
+font-family: Serif,monospace;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
