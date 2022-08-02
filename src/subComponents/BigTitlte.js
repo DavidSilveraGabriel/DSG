@@ -9,6 +9,7 @@ left: ${props => props.left};
 right: ${props => props.right};
 color:${props => `rgba(${props.theme.textRgba},0.1)`};
 font-size: calc(5rem + 5vw);
+font-family: Sans-Serif, Helvetica, Arial;
 z-index:0;
 `
 
