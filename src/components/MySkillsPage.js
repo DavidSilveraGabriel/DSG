@@ -30,7 +30,7 @@ height: 60vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
-font-family: Serif,monospace;
+font-family: Sans-Serif,monospace;
 display: flex;
 flex-direction: column;
 justify-content: space-between;

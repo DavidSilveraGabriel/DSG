@@ -14,7 +14,7 @@ height: 100vh;
 overflow:hidden;
 position: relative;
 h2,h3,h4,h5,h6{
-  font-family: Serif, Karla ,sans-serif ;
+  font-family: Sans-Serif, Karla ,sans-serif ;
   font-weight:500;
 }
 `
