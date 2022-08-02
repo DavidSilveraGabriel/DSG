@@ -50,7 +50,7 @@ font-size: calc(1em + 1.5vw);
 color: ${props => props.theme.body};
 padding: 2rem;
 curson: pointer;
-
+font-family: Serif, Karla ,sans-serif ;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
