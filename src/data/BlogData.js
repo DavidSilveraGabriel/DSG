@@ -2,6 +2,14 @@
 export const Blogs = [
     {
         id:1,
+        name:"Top 5 websites where obtain DataSets for your Data Science projects",
+        tags:["DataScience","DataSet"],
+        date:"3 Aug, 2022",
+        imgSrc:"https://miro.medium.com/max/875/1*EmcM8EGaq7oFxfVpTwehNQ.jpeg",
+        link:"https://medium.com/@DofData/top-5-websites-where-obtain-datasets-for-your-data-science-projects-a7b68e689bd0"
+    },
+    {
+        id:2,
         name:"How to Structure a Data Science Project for Readability and Transparency",
         tags:["DataScience","Organization"],
         date:"7 Apr, 2022",
@@ -9,7 +17,7 @@ export const Blogs = [
         link:"https://medium.com/towards-data-science/how-to-structure-a-data-science-project-for-readability-and-transparency-360c6716800"
     },
     {
-        id:2,
+        id:3,
         name:"MLOps in 10 Minutes",
         tags:["MLOps ","MachineLearning","DataScience"],
         date:"4 May, 2022",
@@ -17,7 +25,7 @@ export const Blogs = [
         link:"https://medium.com/towards-data-science/mlops-in-10-minutes-165c746a9b8e"
     },
     {
-        id:3,
+        id:4,
         name:"6 Sklearn Mistakes That Silently Tell You Are Rookie",
         tags:["Sklearn","MachineLearning","DataScience"],
         date:"8 Apr, 2022",
@@ -25,7 +33,7 @@ export const Blogs = [
         link:"https://medium.com/@ibexorigin/6-sklearn-mistakes-that-silently-tell-you-are-rookie-f1fe44779a4d"
     },
     {
-        id:4,
+        id:5,
         name:"Difference Between Data Science and Software Engineering",
         tags:["SoftwareEngineering","DataScience"],
         date:"22 May, 2020",
@@ -33,7 +41,7 @@ export const Blogs = [
         link:"https://www.geeksforgeeks.org/difference-between-data-science-and-software-engineering/"
     },
     {
-        id:5,
+        id:6,
         name:"My Amazon Data Scientist Interview Questions — and Answers!",
         tags:["Interview","Amazon","DataScience"],
         date:"11 May, 2022",
