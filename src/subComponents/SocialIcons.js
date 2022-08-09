@@ -35,7 +35,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/DavidSilveraGabriel"}}>
-                    <FaGithub width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaGithub width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -44,7 +44,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.2}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/David_Silvera21"}}>
-                    <FaTwitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaTwitter width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -53,7 +53,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.4}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.kaggle.com/davidsilvera"}}>
-                    <FaKaggle width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaKaggle width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -62,7 +62,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.6}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.youtube.com/channel/UCK_nb91XsdzJHr4isq3d1ZA"}}>
-                    <FaYoutube width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaYoutube width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             
