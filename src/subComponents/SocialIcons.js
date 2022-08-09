@@ -53,7 +53,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.4}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.kaggle.com/davidsilvera"}}>
-                    <FaKaggle width={40} height={40} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaKaggle width={100} height={100} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -62,7 +62,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.6}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.youtube.com/channel/UCK_nb91XsdzJHr4isq3d1ZA"}}>
-                    <FaYoutube width={40} height={40} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaYoutube width={100} height={100} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             
