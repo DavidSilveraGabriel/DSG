@@ -70,7 +70,7 @@ const MySkillsPage = () => {
                 <SocialIcons theme='light'/>
                 {/*<ParticleComponent theme='light' />*/}
                 <Main>
-                    <h2>David Silvera Gabriel</h2>
+                    <h1>David Silvera Gabriel</h1>
                     <SubTitle>Data Scientist</SubTitle>
                     
                     <Data>
