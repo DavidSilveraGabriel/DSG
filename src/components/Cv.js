@@ -27,6 +27,7 @@ width: 60vw;
 height:auto;
 z-index:0;
 line-height: 2;
+font-family: Serif, Karla ,sans-serif;
 display: flex;
 flex-direction: column;
 align-items: center;
