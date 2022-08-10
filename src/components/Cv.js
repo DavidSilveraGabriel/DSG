@@ -89,7 +89,7 @@ const MySkillsPage = () => {
                         mouse estimating the pose of the head and eyes, 
                         and today in education as a tutor of data science
                     </Summary>
-                    <SubTitle>Skills</SubTitle>
+                    <SubTitle>Hard Skills</SubTitle>
                     • Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision • Scikit-Learn
                     <SubTitle>Work Experience</SubTitle>
                     <MiniTitle>Data Scientist Tutor at CoderHouse</MiniTitle>
