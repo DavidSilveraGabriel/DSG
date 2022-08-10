@@ -90,7 +90,9 @@ const MySkillsPage = () => {
                         and today in education as a tutor of data science
                     </Summary>
                     <SubTitle>Hard Skills</SubTitle>
-                    • Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision • Scikit-Learn
+                    <Description>• Python • Machine learning • Data Science • Numpy • Pandas • Matplotlib • SQL • Computer vision • Scikit-Learn
+                    • Data Cleaning • Exploratory analysis • Data Visualization • Feature Engineering • Parameter Tuning
+                    • Feature Selection • ML modeling • Validation and Testing • Regularization</Description>
                     <SubTitle>Work Experience</SubTitle>
                     <MiniTitle>Data Scientist Tutor at CoderHouse</MiniTitle>
                     <Description>
