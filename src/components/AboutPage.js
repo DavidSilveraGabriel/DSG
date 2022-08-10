@@ -31,7 +31,7 @@ right: 5%;
 width: 20vw;
 animation: ${float} 4s ease infinite;
 img{
-    width: 88%;
+    width: 100%;
     height: auto;
 }
 `
