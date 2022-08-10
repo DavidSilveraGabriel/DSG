@@ -71,7 +71,7 @@ const MySkillsPage = () => {
                 {/*<ParticleComponent theme='light' />*/}
                 <Main>
                     <h1>David Silvera Gabriel</h1>
-                    <SubTitle>Data Scientist</SubTitle>
+                    <h3>Data Scientist</h3>
                     
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 

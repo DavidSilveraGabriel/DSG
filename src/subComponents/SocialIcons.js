@@ -13,9 +13,9 @@ const Icons = styled.div`
     position: fixed;
     bottom: 0;
     left: 2rem;
-
+    
     z-index: 3;
-
+    
     &>*:not(:last-child){
         margin: 0.5rem 0;
     }
@@ -35,7 +35,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/DavidSilveraGabriel"}}>
-                    <FaGithub width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaGithub  fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -44,7 +44,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.2}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/David_Silvera21"}}>
-                    <FaTwitter width={30} height={30} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaTwitter fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -53,7 +53,7 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.4}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.kaggle.com/davidsilvera"}}>
-                    <FaKaggle width={100} height={100} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaKaggle fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -62,23 +62,23 @@ const SocialIcons = (props) => {
             transition={{type:'spring', duration:1, delay:1.6}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.youtube.com/channel/UCK_nb91XsdzJHr4isq3d1ZA"}}>
-                    <FaYoutube width={100} height={100} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                    <FaYoutube fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             
             <Line color={props.theme}
 
-initial={
-    {
-        height:0
-    }
-}
-animate={{
-    height: '8rem'
-}}
-transition={{
-    type:'spring', duration:1, delay:0.8
-}}
+                initial={
+                    {
+                        height:0
+                    }
+                }
+                animate={{
+                    height: '8rem'
+                }}
+                transition={{
+                    type:'spring', duration:1, delay:0.8
+                }}
             />
         </Icons>
     )
