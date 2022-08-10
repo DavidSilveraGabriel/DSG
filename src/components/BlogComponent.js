@@ -34,7 +34,7 @@ border: 1px solid transparent;
 background-position: center center;
 
 &{Box}:hover &{
-    border: 1px solid ${props => props.theme.body}; 
+    border: 3px solid ${props => props.theme.body}; 
 }
 `
 const Title = styled.h3`
