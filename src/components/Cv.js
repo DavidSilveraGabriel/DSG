@@ -72,13 +72,13 @@ const MySkillsPage = () => {
                 <Main>
                     <h1>David Silvera Gabriel</h1>
                     <h3>Data Scientist</h3>
-                    
-                    <Data>
-                        ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
-                    </Data>
                     <Data>https://www.linkedin.com/in/davidsilveragabriel /
                         https://github.com/DavidSilveraGabriel
                     </Data>
+                    <Data>
+                        ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
+                    </Data>
+                    
                     <SubTitle>Summary</SubTitle>
                     
                     <Summary>
