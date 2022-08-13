@@ -124,22 +124,22 @@ const Main = () => {
             </Center>
             
             <Cv to="/cv" click={click}>
-            <motion.h2
-                initial={{
-                    x:-100,
-                    transition: { type:'spring', duration: 1, delay:1}
-                }}
-                animate={{
-                    y:0,
-                    x:0,
-                    transition: { type:'spring', duration: 1, delay:1}
-                }}
-                whileHover={{scale: 1.5}}
-                whileTap={{scale: 1.2}}
-                
-                >
-                    CV
-            </motion.h2>
+                <motion.h2
+                    initial={{
+                        x:-100,
+                        transition: { type:'spring', duration: 1, delay:1}
+                    }}
+                    animate={{
+                        y:0,
+                        x:0,
+                        transition: { type:'spring', duration: 1, delay:1}
+                    }}
+                    whileHover={{scale: 1.5}}
+                    whileTap={{scale: 1.2}}
+                    
+                    >
+                        CV
+                </motion.h2>
             </Cv>
         
         <BLOG to="/blog">
