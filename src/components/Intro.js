@@ -66,7 +66,7 @@ const Intro = () => {
         <Box
         initial={{height:0}}
         animate={{height: '55vh'}}
-        transition={{ type:'spring', duration:2, delay:1 }}
+        transition={{ type:'spring', duration:3, delay:0.5 }}
         >
             <SubBox>
                 <Text>
