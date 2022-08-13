@@ -32,7 +32,7 @@ const SocialIcons = (props) => {
             <motion.div
             initial={{transform:"scale(0)"}}
             animate={{scale:[0,1,1.5,1]}}
-            transition={{type:'spring', duration:1, delay:1}}
+            transition={{type:'spring', duration:1, delay:1.2}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/DavidSilveraGabriel"}}>
                     <FaGithub  fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
@@ -41,7 +41,7 @@ const SocialIcons = (props) => {
             <motion.div
             initial={{transform:"scale(0)"}}
             animate={{scale:[0,1,1.5,1]}}
-            transition={{type:'spring', duration:1, delay:1}}
+            transition={{type:'spring', duration:1, delay:1.3}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/David_Silvera21"}}>
                     <FaTwitter fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
@@ -50,7 +50,7 @@ const SocialIcons = (props) => {
             <motion.div
             initial={{transform:"scale(0)"}}
             animate={{scale:[0,1,1.5,1]}}
-            transition={{type:'spring', duration:1, delay:1}}
+            transition={{type:'spring', duration:1, delay:1.5}}
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.kaggle.com/davidsilvera"}}>
                     <FaKaggle fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
@@ -77,7 +77,7 @@ const SocialIcons = (props) => {
                     height: '8rem'
                 }}
                 transition={{
-                    type:'spring', duration:1, delay:0.8
+                    type:'spring', duration:2, delay:1
                 }}
             />
         </Icons>
