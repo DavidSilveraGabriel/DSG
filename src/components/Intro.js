@@ -66,7 +66,7 @@ const Intro = () => {
         <Box
         initial={{height:0}}
         animate={{height: '55vh'}}
-        transition={{ type:'spring', duration:3, delay:0.5 }}
+        transition={{ type:'spring', duration:2, delay:1 }}
         >
             <SubBox>
                 <Text>
@@ -79,7 +79,7 @@ const Intro = () => {
                 <motion.div
                 initial={{opacity:0}}
                 animate={{opacity: 1}}
-                transition={{ duration:1, delay:2 }}
+                transition={{ duration:0.5, delay:1 }}
                 >
                     <img className="pic" src={Me}  alt='Profile pic' />
                 </motion.div>
