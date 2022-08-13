@@ -109,7 +109,7 @@ const MySkillsPage = () => {
                     
                     <MiniTitle>EEG classifier</MiniTitle>
                     <Description>
-                        In this mini project i use the libraries mne and braindecode to analyze and classify public domain EEG(ML)
+                        Using the libraries mne and braindecode to analyze and classify public domain EEG(ML)
                         signals provided by physionet.org here the paper from braindecode where is studied deep ConvNets
                         with a range of different architectures, designed for decoding imagined or executed movements from
                         raw EEG
