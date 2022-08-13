@@ -121,12 +121,12 @@ const AboutPage = () => {
             <motion.h2
                 initial={{
                     x:-100,
-                    transition: { type:'spring', duration: 2, delay:1}
+                    transition: { type:'spring', duration: 1, delay:1}
                 }}
                 animate={{
                     y:0,
                     x:0,
-                    transition: { type:'spring', duration: 2, delay:1}
+                    transition: { type:'spring', duration: 1, delay:1}
                 }}
                 whileHover={{scale: 1.5}}
                 whileTap={{scale: 1.2}}
@@ -140,11 +140,11 @@ const AboutPage = () => {
                 <motion.h2
                 initial={{
                     y:200,
-                    transition: { type:'spring', duration: 2, delay:1}
+                    transition: { type:'spring', duration: 1, delay:1}
                 }}
                 animate={{
                     y:0,
-                    transition: { type:'spring', duration: 2, delay:1}
+                    transition: { type:'spring', duration: 1, delay:1}
                 }}
                 whileHover={{scale: 1.5}}
                 whileTap={{scale: 1.5}}
@@ -156,11 +156,11 @@ const AboutPage = () => {
                 <motion.h2
                 initial={{
                     y:200,
-                    transition: { type:'spring', duration: 2, delay:1}
+                    transition: { type:'spring', duration: 1, delay:1}
                 }}
                 animate={{
                     y:0,
-                    transition: { type:'spring', duration: 2, delay:1}
+                    transition: { type:'spring', duration: 1, delay:1}
                 }}
                  whileHover={{scale: 1.5}}
                 whileTap={{scale: 1.5}}
