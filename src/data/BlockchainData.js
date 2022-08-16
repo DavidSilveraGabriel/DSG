@@ -7,7 +7,14 @@ export const Blogs = [
         date:"11 May, 2022",
         imgSrc:"https://blog.formaciongerencial.com/wp-content/uploads/2021/11/Web3.jpg",
         link:"https://github.com/DavidSilveraGabriel/Web3-wave-example"
+    },
+    {
+        id:2,
+        name:"The blockchain developer resources",
+        tags:["blockchain","Metamask","resources"],
+        date:"16 Aug 2022",
+        imgSrc:"https://blog.formaciongerencial.com/wp-content/uploads/2021/11/Web3.jpg",
+        link:"https://github.com/DavidSilveraGabriel/The-blockchain-dev-resources"
     }
-
   
 ] 
