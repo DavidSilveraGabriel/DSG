@@ -23,6 +23,14 @@ export const Blogs = [
         date:"11 May, 2022",
         imgSrc:"https://www.diplomadosonline.com/wp-content/uploads/2020/02/What_is_Data_Science-1080x675.jpg",
         link:"https://github.com/DavidSilveraGabriel/Data-science-resources"
+    },
+    {
+        id:4,
+        name:"Sentiment classifier Fer2013",
+        tags:["MachineLearning","DataScience","Fun"],
+        date:"10 Jan, 2021",
+        imgSrc:"https://www.i2tutorials.com/wp-content/media/2020/05/Sentiment-Analysis-Using-Python-i2tutorials.jpg",
+        link:"https://github.com/DavidSilveraGabriel/Sentiment_classifier_fer2013"
     }
     
 ] 
