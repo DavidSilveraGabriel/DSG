@@ -26,7 +26,7 @@ export const Blogs = [
     },
     {
         id:4,
-        name:"Intel Edge AI for IoT Developers Project 2",
+        name:"Intel Edge AI for IoT, People Counter app",
         tags:["Intel","AI","IoT"],
         date:"18 Jun, 2020",
         imgSrc:"https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/3Tfw2FB0j4Jyb2aAfRnLwE/2b80ada7f768f8041ac6ead0e3982597/SEO-Image__2_.jpg",
