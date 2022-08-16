@@ -126,8 +126,7 @@ const MySkillsPage = () => {
                     <MiniTitle>Nanodegree: Intel® Edge AI for IoT Developers Nanodegree</MiniTitle>
                     <Description>I've worked in the development of cutting-edge Edge AI applications for the future of the Internet of
                         Things. I've Used the Intel® Distribution of OpenVINO™ Toolkit to fast-track 
-                        development of high-performance computer vision & 
-                        deep learning inference applications.
+                        development of high-performance computer vision & deep learning inference applications.
                     </Description>
                     <MiniTitle>Plan 111 mil Programadores</MiniTitle>
                     <Description>Villa Mercedes, Argentina
