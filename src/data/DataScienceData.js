@@ -30,7 +30,7 @@ export const Blogs = [
         tags:["Intel","AI","IoT"],
         date:"18 Jun, 2020",
         imgSrc:"https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/45cff1c3-843f-4353-aff5-b18c6601ffcf.svg",
-        link:"https://github.com/DavidSilveraGabriel/Intel--Edge-AI-for-IoT-Developers---Project-2"
+        link:"https://github.com/DavidSilveraGabriel/Intel--Edge-AI-for-IoT-Developers---Project-1"
     },
     {
         id:5,
