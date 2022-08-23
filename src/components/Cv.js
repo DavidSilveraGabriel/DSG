@@ -82,6 +82,7 @@ const MySkillsPage = () => {
                     <SubTitle>Summary</SubTitle>
                     
                     <Summary>
+                        Passionate, delivery focused, hands-on, independent, pro-active and
                         Self-taught Data Scientist with +2 years of experience, 
                         worked as a freelancer in the areas of neuroscience, developing an
                         end-to-end EEG classifier for move an arduino robot with the mind in 
