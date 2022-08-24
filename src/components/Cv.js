@@ -89,7 +89,7 @@ const MySkillsPage = () => {
                     too in computer vision, creating an app that controls the mouse estimating the pose of the head and eyes,
                     and today working in education as a tutor of data science.
                     </Summary>
-                    <SubTitle>Hard Skills</SubTitle>
+                    <SubTitle>Skills</SubTitle>
                     <Description>• Python • Numpy • Pandas • Matplotlib • SQL • Scikit-Learn • Machine learning • Data Science • Computer vision 
                     • Data Cleaning • Exploratory analysis • Data Visualization • Feature Engineering 
                     • Feature Selection • ML modeling • Validation and Testing </Description>
