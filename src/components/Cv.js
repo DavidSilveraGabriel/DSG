@@ -55,7 +55,7 @@ color: ${props => props.theme.text};
 align-items: left;
 justify-content: left;
 `
-const MiniTitle = styled.h4`
+const MiniTitle = styled.h3`
 color: ${props => props.theme.text};
 align-items: left;
 justify-content: left;
