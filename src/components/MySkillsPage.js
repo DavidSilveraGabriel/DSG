@@ -59,6 +59,7 @@ const Description = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
 padding: 0.7rem 0;
+font-family: Sans-Serif,monospace;
 ${Main}:hover &{
    
         color:${props => props.theme.body};
@@ -71,6 +72,7 @@ strong{
 ul,p{
     margin-left: 2rem;
 }
+
 `
 const BLOCKCHAIN = styled(NavLink)`
 color: ${props => props.theme.text};
