@@ -57,7 +57,7 @@ margin-right: 1rem;
 
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.6vw);
+font-size: calc(0.5em + 0.3vw);
 padding: 0.7rem 0;
 ${Main}:hover &{
    
