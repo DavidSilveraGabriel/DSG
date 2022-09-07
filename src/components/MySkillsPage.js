@@ -136,8 +136,10 @@ const MySkillsPage = () => {
                             <BsClipboardData width={30} height={30} /> Data Scientist
                         </Title>
                         <Description>
-                        Turns raw data into valuable insights and use Machine Learning algorithms
-                        for get predictions that an organisation needs in order to grow and compete
+                        A data scientist requires large amounts of data to develop hypotheses, 
+                        make inferences, and analyze customer and market trends. 
+                        Basic responsibilities include gathering and analyzing data, using various types of analytics, 
+                        machine learning algorithms and reporting tools to detect patterns, trends and relationships in data sets.
                         </Description>
                         <Description>
                             <strong>Skills</strong>
