@@ -144,7 +144,7 @@ const MySkillsPage = () => {
                             <strong>Skills</strong>
                             <p>
                             • Python • Numpy • Pandas • Matplotlib • SQL • Scikit-Learn • Machine learning 
-                            • Computer vision • Data Cleaning • Exploratory analysis • Data Visualization 
+                            • Computer vision • Data Cleaning • Exploratory data analysis • Data Visualization 
                             • Feature Engineering • Feature Selection • ML modeling • Validation and Testing
                             </p>
                         </Description>
