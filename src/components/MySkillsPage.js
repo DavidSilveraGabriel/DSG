@@ -128,9 +128,6 @@ const MySkillsPage = () => {
                                 </li>
                             </ul>
                         </Description>
-                        
-                        
-                        <p>[###------------------------------9%] in progress, be patient</p>
                     </BLOCKCHAIN>
                 </Main>
                 <Main>
