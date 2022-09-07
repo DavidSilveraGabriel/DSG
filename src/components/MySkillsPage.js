@@ -108,7 +108,7 @@ const MySkillsPage = () => {
                 <Main>
                     <BLOCKCHAIN to="/blockchain">
                         <Title>
-                            <BsCodeSlash width={30} height={30} /> Blockchain Developer
+                            <BsCodeSlash width={30} height={30} /> Blockchain
                         </Title>
                         <Description>
                             I believe the emergence of blockchain technology and decentralized applications 
@@ -135,7 +135,7 @@ const MySkillsPage = () => {
                             <BsClipboardData width={30} height={30} /> Data Scientist
                         </Title>
                         <Description>
-                        A data scientist requires large amounts of data to develop hypotheses, 
+                        A data scientist is a professional that requires large amounts of data to develop hypotheses, 
                         make inferences, and analyze customer and market trends. 
                         Basic responsibilities include gathering and analyzing data, using various types of analytics, 
                         machine learning algorithms and reporting tools to detect patterns, trends and relationships in data sets.
