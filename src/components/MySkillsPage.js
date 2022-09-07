@@ -30,7 +30,7 @@ height: 60vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
-font-family: Sans-Serif,monospace;
+font-family: Serif, Karla ,sans-serif;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -57,9 +57,8 @@ margin-right: 1rem;
 
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size: calc(0.5em + 0.3vw);
+font-size: calc(0.5em + 0.5vw);
 padding: 0.7rem 0;
-font-family: Sans-Serif,monospace;
 ${Main}:hover &{
    
         color:${props => props.theme.body};
