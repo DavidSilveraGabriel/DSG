@@ -3,7 +3,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import {DarkTheme} from '../components/Themes'
-import { FaGithub, FaTwitter, FaYoutube, FaKaggle} from "react-icons/fa";
+import { FaGithub, FaTwitter, FaYoutube, FaKaggle, FaLinkedin} from "react-icons/fa";
 
 const Icons = styled.div`
     display: flex;
@@ -45,6 +45,15 @@ const SocialIcons = (props) => {
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/David_Silvera21"}}>
                     <FaTwitter fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                </NavLink>
+            </motion.div>
+            <motion.div
+            initial={{transform:"scale(0)"}}
+            animate={{scale:[0,1,1.5,1]}}
+            transition={{type:'spring', duration:1, delay:1.3}}
+            >
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.linkedin.com/in/davidsilveragabriel/"}}>
+                    <FaLinkedin fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div

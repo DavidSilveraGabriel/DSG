@@ -5,7 +5,6 @@ import {LightTheme} from './Themes';
 
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
-//import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
 
 const Box = styled.div`
@@ -72,9 +71,6 @@ const MySkillsPage = () => {
                 <Main>
                     <h1>David Silvera Gabriel</h1>
                     <h3>Data Scientist</h3>
-                    <Data>https://www.linkedin.com/in/davidsilveragabriel /
-                        https://github.com/DavidSilveraGabriel
-                    </Data>
                     <Data>
                         ingenieria.d.s.g@hotmail.com / (+54) 2657626313 
                     </Data>
