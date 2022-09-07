@@ -143,7 +143,9 @@ const MySkillsPage = () => {
                         <Description>
                             <strong>Skills</strong>
                             <p>
-                                Python, matplotlib, numpy, pytorch, pandas, scikit-learn, seaborn, and much more..
+                            • Python • Numpy • Pandas • Matplotlib • SQL • Scikit-Learn • Machine learning 
+                            • Computer vision • Data Cleaning • Exploratory analysis • Data Visualization 
+                            • Feature Engineering • Feature Selection • ML modeling • Validation and Testing
                             </p>
                         </Description>
                         <Description>
