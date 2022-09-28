@@ -82,9 +82,7 @@ const MySkillsPage = () => {
                     i've worked as a freelancer in the areas of neuroscience, developing an end-to-end EEG
                     classifier for move an arduino robot with the mind in just 3 month, too in computer vision,
                     creating an app that controls the mouse estimating the pose of the head and eyes, 
-                    and today working in education as a tutor of data science.
-
-
+                    and today working in education as a tutor of data science with greats reviews.
                     </Summary>
                     <SubTitle>Skills</SubTitle>
                     <Description>• Python • Numpy • Pandas • Matplotlib • SQL • Scikit-Learn • Machine learning • Data Science • Computer vision 
