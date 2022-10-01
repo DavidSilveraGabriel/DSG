@@ -1,5 +1,8 @@
 # Build a Stunning Portfolio with React JS using Styled-Components and framer-motion for awesome Animations
 
+<img title="result" alt="dofdata" src="src/assets/Images/img.png">
+
+
 This repository contains starter code for Portfolio Website in ReactJS edited by me <br />
 
 The original code is from [here](https://github.com/codebucks27/React-Portfolio-starter-code-files) <br />

@@ -5,7 +5,7 @@ import {LightTheme} from './Themes';
 
 import LogoComponent from '../subComponents/LogoComponent';
 import SocialIcons from '../subComponents/SocialIcons';
-import BigTitle from '../subComponents/BigTitlte'
+//import BigTitle from '../subComponents/BigTitlte'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -16,7 +16,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 `
-
 const Main = styled.div`
 border: 2px solid ${props => props.theme.text};
 margin-top: 4rem;
@@ -30,8 +29,7 @@ font-family: Serif, Karla ,sans-serif;
 display: flex;
 flex-direction: column;
 align-items: center;
-`
-
+` 
 const Data = styled.div`
 color: ${props => props.theme.text};
 font-size: calc(0.5em + 0.3vw);
@@ -48,7 +46,6 @@ color: ${props => props.theme.text};
 font-size: calc(0.7em + 0.3vw);
 margin: 1rem;
 `
-
 const SubTitle = styled.h2`
 color: ${props => props.theme.text};
 align-items: left;
@@ -135,7 +132,7 @@ const MySkillsPage = () => {
                     * English Conversational 
                 </Main>
 
-            <BigTitle text="Curriculum Vitae" top="70%" right="20%" />
+            {/*<BigTitle text="Curriculum Vitae" top="70%" right="20%" />*/ }
 
             </Box>
 
