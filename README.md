@@ -2,8 +2,7 @@
 
 This repository contains starter code for Portfolio Website in ReactJS edited by me <br />
 The original code is from [here](https://github.com/codebucks27/React-Portfolio-starter-code-files) <br />
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/jcohAIaSy2M <br />
+If you want to learn how to create it, please follow [the tutorial](https://youtu.be/jcohAIaSy2M) 
 
 
 ### Resources Used in This Project
