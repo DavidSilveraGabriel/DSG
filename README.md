@@ -2,6 +2,7 @@
 
 <img title="result" alt="dofdata" src="src/assets/Images/img.png">
 
+The deployed site is [here](https://dofdata.com/)
 
 This repository contains starter code for Portfolio Website in ReactJS edited by me <br />
 
