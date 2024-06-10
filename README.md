@@ -2,15 +2,11 @@
 
 <img title="result" alt="dofdata" src="src/assets/Images/img.png">
 
-The deployed site is [here](https://dofdata.com/)
-
 This repository contains starter code for Portfolio Website in ReactJS edited by me <br />
 
 The original code is from [here](https://github.com/codebucks27/React-Portfolio-starter-code-files) <br />
 
 If you want to learn how to create it, please follow [the tutorial](https://youtu.be/jcohAIaSy2M) 
-
-The deployed project is [here](https://dofdata.com/)
 
 ## Available Scripts
 
